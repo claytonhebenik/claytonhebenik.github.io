@@ -2,7 +2,7 @@
 *.scssc
 *.css.map
 
-.codekit-cache
+.codekit-cache/
 *.scss
 
 .htaccess-works
