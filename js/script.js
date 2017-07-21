@@ -40,8 +40,4 @@ $(document).ready(function() {
     $('nav').addClass('closed');
     $('.button').removeClass('active');
   }
-
-  $('.fancy').on('click', function() {
-    //$('body').toggleClass('fancy');
-  });
 });

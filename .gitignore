@@ -1,0 +1,10 @@
+.sass-cache/
+*.scssc
+*.css.map
+
+.codekit-cache
+*.scss
+
+.htaccess-works
+
+config.codekit
