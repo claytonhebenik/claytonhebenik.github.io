@@ -1,0 +1,4 @@
+## MOD_DEFLATE COMPRESSION ##
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css text/javascript application/javascript
+</IfModule>

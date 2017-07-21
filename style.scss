@@ -1,0 +1,368 @@
+/******************************************************
+(0.0) - Setup: SCSS Mixins, Variables, etc.
+******************************************************/
+/***************************
+(0.1) - Mixins
+***************************/
+@mixin animation($args...) {
+  -o-animation: $args;
+  -moz-animation: $args;
+  -webkit-animation: $args;
+  animation: $args;
+}
+@mixin vendorFix($property, $args) {
+  -o-#{$property}: $args;
+  -moz-#{$property}: $args;
+  -webkit-#{$property}: $args;
+  $property: #{$args};
+}
+/***************************
+(0.2) - Variables
+***************************/
+$black: black;
+$white: white;
+$grey: #95989A;
+
+/******************************************************
+(1.0) - Global Styles
+******************************************************/
+html {
+    box-sizing: border-box;
+}
+body { margin: 0; overflow-x: hidden !important; }
+*, *:before, *:after {
+    box-sizing: inherit;
+    z-index: 0;
+}
+body {
+  background: #fafafa;
+  font-family: 'PT Mono', monospace;
+}
+h1, h2, h3, h4 {
+  margin-bottom: 0;
+  & + p { margin-top: 5px; }
+}
+h1 { font-size: 24px; margin: 20px 0; }
+p {
+  color: $grey;
+  line-height: 1.7em;
+  &.lead {
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 800;
+  }
+}
+button {
+  cursor: pointer;
+  &:focus { outline: none;}
+}
+a {
+  color: $black;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+  &:hover {
+    color: $grey;
+    text-decoration: underline;
+  }
+}
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/***************************
+(1.1) - Animations
+***************************/
+@import 'animations';
+
+/***************************
+(1.2) - Define Grid
+***************************/
+@import 'grid';
+
+/******************************************************
+(2.0) - Page Elements
+******************************************************/
+
+/***************************
+(2.1) - Header
+***************************/
+header {
+  background: $white;
+  padding: 0 15px;
+  position: relative;
+}
+/***************************
+(2.2) - Navigation Menu
+***************************/
+nav {
+  border-top: 1px solid $black;
+  border-bottom: 1px solid $black;
+  transition: height 0.5s ease-in-out;
+  overflow: hidden;
+  height: 116px;
+  width: 100%;
+  &.closed {height: 0px; }
+  li {
+    margin: 3px 0; list-style: square; list-style-type: square;
+    & i {
+      transition: width 0.3s ease-in-out;
+      width: 0;
+      overflow: hidden;
+    }
+    &:hover i {
+      width: 20px;
+    }
+  }
+}
+/***************************
+(2.3) - Header Buttons
+***************************/
+.button {
+  background: $white;
+  box-sizing: initial;
+  border: 2px solid $black;
+  padding: 5px;
+  &:hover { z-index: 1; text-decoration: none; }
+}
+a.button {
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  &:hover {
+    color: $white;
+    background: $black;
+  }
+}
+button.close {
+  @extend .button;
+  position: absolute;
+  right: 1.5%;
+  text-align: right;
+  top: 15px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  transition: top 1s ease-in-out;
+  & > .bar {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: $black;
+    border-radius: 1px;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    & + .bar {
+      margin-top: 5px;
+    }
+  }
+  &.active {
+    //top: 76px;
+    .bar { margin-top: 0;}
+    .bar1{ opacity: 0; }
+    .bar2 { transform: rotate(45deg); }
+    .bar3 {
+      margin-top: -2px;
+      transform: rotate(-45deg);
+    }
+  }
+}
+@media screen and (max-width: $grid__bp--md * 1px) {
+  span.hide { display: none; }
+  header h1 { font-size: 21px; }
+  #site__heading { width: 50%;}
+  .button { z-index: 200; }
+}
+
+/***************************
+(2.2.0) - Content
+***************************/
+.content {
+  padding: 15px;
+  & p { font-family: 'Open Sans', sans-serif; font-size: 18px; }
+  & > div {
+    @include animation(fadeIn, fadeIn 1s linear);
+  }
+  ul {
+    padding-left: 20px;
+  }
+}
+
+/***************************
+(2.2.1) - Work (portfolio)
+***************************/
+.portfolio {
+  &__item {
+    background: $white;
+    border: 1px solid #ccc;
+    margin: 5px;
+    transition: all 0.2s ease-in-out;
+    @include vendorFix(border-radius, 2px);
+    &:hover {
+      @include vendorFix(box-shadow, 0 1px 2px #ccc);
+      margin: -5px;
+    }
+    & a {
+      display: block;
+      @include vendorFix(border-radius, 2px 2px 0 0);
+    }
+    &-header {
+      border-top: 1px solid #ccc;
+      padding: 0 15px;
+      text-align: center;
+    }
+  }
+  & .container__row {margin-bottom: 30px;}
+}
+@media screen and (max-width: $grid__bp--md * 1px) {
+  .portfolio {
+    &__item {
+      margin: 5px;
+      &:hover {
+        margin: 5px;
+      }
+    }
+  }
+}
+div[class*="portfolio-item"] {
+  background: $white;
+  border: 1px solid #ccc;
+  //border: 1px solid #ccc;
+  //position: absolute;
+}
+
+// div[class*="portfolio-item"]:nth-child(odd) {
+//   @include animation(moveup 0.4s linear, fadeIn 0.9s linear);
+// }
+// div[class*="portfolio-item"]:nth-child(even) {
+//   @include animation(moveup 0.5s linear, fadeIn 0.9s linear);
+// }
+// $y: 0.3;
+// @for $i from 1 through 3 {
+//   .portfolio-item-#{$i} {
+//     @include animation(moveup ($y * 1s) linear, fadeIn 0.9s linear);
+//   }
+//   $y: ($y + 0.03);
+// }
+//.portfolio-item-1, .portfolio-item-4 { left: 0; }
+//.portfolio-item-2, .portfolio-item-5 { left: 33%; }
+//.portfolio-item-3, .portfolio-item-6 { left: 66%; }
+//.portfolio-item-4 {top: 400px;}
+//.portfolio-item-5 {top: 400px;}
+//.portfolio-item-6 {top: 400px;}
+
+
+/***************************
+(2.2.2) - Modal Windows
+***************************/
+.overlay {
+  display: none;
+  background: $black;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.modal, .overlay {
+  animation: fadeIn 0.8s linear;
+}
+.modal {
+  display: none;
+  transition: all 0.8s ease-in-out;
+  @include vendorFix(border-radius, 2px);
+  height: 100%;
+  overflow: scroll !important;
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background: $white;
+  z-index: 200;
+  & .container__row {
+    margin-bottom: 15px;
+  }
+  & .container--fluid > .container__row {
+    margin: 0;
+  }
+  & .logo {
+    margin: 40px 0 0;
+  }
+  & #container__right {
+    background: #eee;
+    position: static;
+    padding: 0 30px;
+    & h1 { font-size: 36px; max-width: 90%; }
+    & p { max-width: 90%; }
+  }
+  & .modal-link {
+    position: absolute;
+    padding: 5px;
+    color: $black;
+    background: none;
+    right: 5px;
+    z-index: 2;
+    font-size: 28px;
+    top: 5px;
+    .bar {
+      width: 20px;
+      height: 2px;
+      background: $black;
+      border-radius: 1px;
+      opacity: 1;
+      transform: rotate(45deg);
+      & + .bar {
+        transform: rotate(-45deg);
+        margin-top: -2px;
+      }
+    }
+  }
+  & .video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    & iframe {
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  width: 100%;
+  & iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (min-width: $grid__bp--md * 1px) {
+  .modal {
+    & .container__col-md-4 { position: relative; }
+    & .container__col-md-4 div, & .modal-link  {
+      position: fixed;
+    }
+    & .modal-link {
+      right: 25px;
+      top: 15px;
+    }
+  }
+}
+body.modal-active { overflow: hidden; }
+body {transition: all 0.5s ease-in-out;}
+body.fancy {
+
+  @import 'fancy';
+}

@@ -1,0 +1,41 @@
+// @keyframes textthing {
+//   0% {
+//     opacity:0;
+//     content: 'c';
+//   }
+//   16% {
+//     opacity: 0.2;
+//     content: 'cl';
+//   }
+//   32% {
+//     opacity: 0.4;
+//     content: 'cla';
+//   }
+//   48% {
+//     opacity: 0.6;
+//     content: 'clay';
+//   }
+//   64% {
+//     opacity: 0.8;
+//     content: 'clayt';
+//   }
+//   80% {
+//     opacity: 1;
+//     content: 'clayto';
+//   }
+//   96% {
+//     content: 'clayton';
+//   }
+// }
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes moveup {
+  0% {
+    margin-top: 200px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
