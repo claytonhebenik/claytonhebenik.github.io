@@ -74,6 +74,11 @@ img {
     margin-top: 200px; }
   100% {
     margin-top: 0px; } }
+@keyframes slideText {
+  0% {
+    text-indent: 9999px; }
+  100% {
+    text-inden: 0; } }
 /***************************
 (1.2) - Define Grid
 ***************************/
@@ -678,3 +683,27 @@ body.modal-active {
 
 body {
   transition: all 0.5s ease-in-out; }
+
+body.fancy {
+  transition: all 8s ease-in-out; }
+  body.fancy header {
+    background: #222;
+    border-right: 1px solid black;
+    width: 500px;
+    height: 100%;
+    float: left;
+    font-family: 'PT Sans', sans-serif; }
+    body.fancy header * {
+      color: white; }
+    body.fancy header nav {
+      border: none; }
+    body.fancy header h1 {
+      font-size: 2.3em; }
+      body.fancy header h1:after {
+        content: 'UI/UX Designer & Front-end Developer';
+        color: turquoise;
+        display: block;
+        font-size: 1.2rem;
+        font-weight: 400; }
+    body.fancy header .hide {
+      display: none; }
