@@ -373,7 +373,7 @@
 .photo__small {
   height: 300px;
   overflow: hidden;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
   text-align: center; }
   .photo__small img {
     width: 300%;
