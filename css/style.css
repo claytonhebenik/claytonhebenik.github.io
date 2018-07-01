@@ -448,24 +448,24 @@ header {
 /***************************
 (2.2) - Navigation Menu
 ***************************/
-nav {
+nav, ul {
   border-top: 1px solid #414042;
   border-bottom: 1px solid #414042;
   transition: height 0.5s ease-in-out;
   overflow: hidden;
   height: 136px;
   width: 100%; }
-  nav.closed {
+  nav.closed, ul.closed {
     height: 0px; }
-  nav li {
+  nav li, ul li {
     margin: 3px 0;
     list-style: square;
     list-style-type: square; }
-    nav li i {
+    nav li i, ul li i {
       transition: width 0.3s ease-in-out;
       width: 0;
       overflow: hidden; }
-    nav li:hover i {
+    nav li:hover i, ul li:hover i {
       width: 20px; }
 
 /***************************
@@ -543,6 +543,10 @@ button.close {
     animation: fadeIn, fadeIn 0.25s linear; }
   .content ul {
     padding-left: 20px; }
+
+ul {
+  border: none;
+  height: auto; }
 
 /***************************
 (2.2.1) - Work (portfolio)
@@ -711,3 +715,6 @@ body.fancy {
         font-weight: 400; }
     body.fancy header .hide {
       display: none; }
+
+.auto-width {
+  width: auto; }
