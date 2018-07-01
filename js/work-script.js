@@ -35,7 +35,6 @@ $(document).ready(function() {
     });
   }
   function callPhoto(photoInput) {
-    console.log('image modal');
     $('.modal').html('<div class="container--fluid"><div class="container__row"><div class="container__col-sm-12 img" id="container__left"><img class="photo" src="' + photoInput + '" /><button class="button close modal-link"><span class="bar bar2"></span><span class="bar bar3"></span></button></div></div></div>').show();
     close();
   }
