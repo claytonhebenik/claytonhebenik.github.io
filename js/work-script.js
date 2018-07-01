@@ -4,7 +4,13 @@ $(document).ready(function() {
     e.preventDefault();
     var pageRef = $(this).attr('href');
 
-    callPage(pageRef);
+    if(pageRef.indexOf('.jpg') > 0 || pageRef.indexOf('.jpeg') > 0 || pageRef.indexOf('.png') > 0) // or any other extension
+    {
+        callPhoto(pageRef);
+    }
+    else {
+      callPage(pageRef);
+    }
     $('body').toggleClass('modal-active');
   });
   $('.close').on('click', function(e) {
@@ -16,7 +22,7 @@ $(document).ready(function() {
       type: "GET",
       dataType: "text",
       success: function( response ) {
-        //console.log("it worked", response);
+        // console.log("it worked", response);
         $('.modal').html(response).show();
 
       },
@@ -27,6 +33,11 @@ $(document).ready(function() {
       //   console.log("There request was completed");
       // }
     });
+  }
+  function callPhoto(photoInput) {
+    console.log('image modal');
+    $('.modal').html('<div class="container--fluid"><div class="container__row"><div class="container__col-sm-12 img" id="container__left"><img class="photo" src="' + photoInput + '" /><button class="button close modal-link"><span class="bar bar2"></span><span class="bar bar3"></span></button></div></div></div>').show();
+    close();
   }
   window.onresize = function(event) {
     //resizeDiv();
@@ -48,3 +59,10 @@ $(document).ready(function() {
   //     $('.overlay').toggle();
   // }
 });
+function close() {
+  $('.close').on('click', function (e) {
+    $('.modal').hide().html('');
+    $('body').removeClass('modal-active');
+  });
+}
+
