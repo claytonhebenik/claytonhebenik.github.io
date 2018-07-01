@@ -31,10 +31,14 @@ var photos = [
     'Scan10013.jpg',
     'Scan10015.jpg',
     'Scan10019.jpg',
-    'Scan10019.png',
+    'Scan10023.jpg',
+    'Scan10024.jpg',
+    'Scan10035.jpg',
+    'Scan10044.jpg',
+    'Scan10046.jpg',
     'Scan10033.jpg',
     'Scan10048.png',
-    'Wateron Lake.jpeg',
+    'Wateron Lake.jpeg'
   ];
   for(var i = 0; i < photos.length; i++) {
   $('.photos').append(
