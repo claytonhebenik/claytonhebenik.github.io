@@ -1,0 +1,27 @@
+<!-- photos css -->
+<link href="css/photos.min.css" media="all" rel="stylesheet" type="text/css" />
+
+<!-- Photos container-->
+<div class="container__col-sm-12">
+    <h1>35mm</h1>
+    <div class="container__row photos">
+
+    </div>
+    <!-- <ul class="photos"></ul> -->
+</div>
+<!-- End of photos container -->
+
+<!-- Modal Window -->
+<div class="modal">
+
+</div>
+<!-- End of Modal Window -->
+
+<script async src="js/work-script.min.js"></script>
+<script src="js/photos.min.js"></script>
+<script>
+    $('.modal-link-close').on('click', function () {
+        displayModal();
+        $('body').toggleClass('modal-active');
+    });
+</script>
