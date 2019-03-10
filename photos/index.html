@@ -1,72 +1,80 @@
 <html>
 
 <head>
-  <title>Clayton Hebenik - UI/UX Designer in Vancouver, BC</title>
+  <title>Imposter Syndrome</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
-  <link href="css/style.min.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/photos.css" media="all" rel="stylesheet" type="text/css" />
+  <!-- <link href="css/style.min.css" media="all" rel="stylesheet" type="text/css" /> -->
+  <!-- <link href="css/photos.css" media="all" rel="stylesheet" type="text/css" /> -->
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
 </head>
 
+<style>
+  .photos {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-auto-rows: minmax(100px, 1fr);
+    grid-auto-flow: dense;
+  }
+
+  .photo {
+    background: #fafafa;
+    
+  }
+
+  .photo-full {
+    grid-column: span 2;
+    grid-row: span 2;
+    background: green;
+  }
+  
+  .photo-full:nth-child(2n) {
+    background: red;
+  }
+</style>
+
 <body>
-  <div class="container--fluid">
-    <header>
-      <div class="container__row" id="site__heading">
-        <div class="container__col-sm-12">
-          <h1>Photos</h1>
-        </div>
-      </div>
-      <div class="container__row">
-        <nav class="closed">
-          <button class="button close">
-            <span class="bar bar1"></span>
-            <span class="bar bar2"></span>
-            <span class="bar bar3"></span>
-          </button>
-          <ul>
-            <li>
-              <a class="nav-link" href="work.html">work/</a>
-            </li>
-            <li>
-              <a class="nav-link" href="about.html" id="about">about/</a>
-            </li>
-            <!-- <li><a class="nav-link" href="misc.html">misc/</a></li> -->
-            <li>
-              <a class="nav-link" href="contact.html" rel="nofollow">contact/</a>
-            </li>
-            <li>
-              <a href="http://claytonhebenik.com/blog" target="_blank">blog/</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <section class="container__row content">
-      <div class="container__col-sm-12 container__col-md-3 photo__small">
-        <img src="img/photos/test.jpg" />
-      </div>
-      <div class="container__col-sm-12 container__col-md-3 photo__small">
-        <img src="img/photos/test.jpg" />
-      </div>
-      <div class="container__col-sm-12 container__col-md-3 photo__small">
-        <img src="img/photos/test.jpg" />
-      </div>
-      <div class="container__col-sm-12 container__col-md-3 photo__small">
-        <img src="img/photos/test.jpg" />
-      </div>
-      <div class="container__col-sm-12 container__col-md-3 photo__small">
-        <img src="img/photos/test.jpg" />
-      </div>
-      <div class="container__col-sm-12 container__col-md-3 photo__small">
-        <img src="img/photos/test.jpg" />
-      </div>
-      <div class="container__col-sm-12 container__col-md-3 photo__small">
-        <img src="img/photos/test.jpg" />
-      </div>
-    </section>
-  </div>
+  <header>
+    <h1>Hello World!</h1>
+  </header>
+  <section class="photos">
+    <div class="photo">1</div>
+    <div class="photo">2</div>
+    <div class="photo photo-full">3</div>
+    <div class="photo">4</div>
+    <div class="photo">5</div>
+    <div class="photo">6</div>
+    <div class="photo">7</div>
+    <div class="photo">8</div>
+    <div class="photo">9</div>
+    <div class="photo photo-full">10</div>
+    <div class="photo">11</div>
+    <div class="photo">12</div>
+    <div class="photo">13</div>
+    <div class="photo">14</div>
+    <div class="photo">1</div>
+    <div class="photo">2</div>
+    <div class="photo">3</div>
+    <div class="photo">4</div>
+    <div class="photo photo-full">5</div>
+    <div class="photo">6</div>
+    <div class="photo">7</div>
+    <div class="photo">8</div>
+    <div class="photo">9</div>
+    <div class="photo">10</div>
+    <div class="photo">11</div>
+    <div class="photo">12</div>
+    <div class="photo photo-full">5</div>
+    <div class="photo">6</div>
+    <div class="photo">7</div>
+    <div class="photo">8</div>
+    <div class="photo">9</div>
+    <div class="photo">10</div>
+    <div class="photo">11</div>
+    <div class="photo">12</div>
+  </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" asynch defer></script>
   <script src="https://use.fontawesome.com/f7e308fae8.js"></script>
   <script src="../js/script.js" defer></script>
