@@ -50,6 +50,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_utilities.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_utilities.scss",
+		"outputAbbreviatedPath": "\/css\/_utilities.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/about.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -265,6 +281,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bose-iphone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67382,
+		"inputAbbreviatedPath": "\/img\/bose-iphone.png",
+		"outputAbbreviatedPath": "\/img\/bose-iphone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bose-macbook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82594,
+		"inputAbbreviatedPath": "\/img\/bose-macbook.png",
+		"outputAbbreviatedPath": "\/img\/bose-macbook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/clayton-hebenik.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -283,6 +321,28 @@
 		"initialSize": 27597,
 		"inputAbbreviatedPath": "\/img\/clayton-hebenik.png",
 		"outputAbbreviatedPath": "\/img\/clayton-hebenik.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hardtimes-iphone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 301817,
+		"inputAbbreviatedPath": "\/img\/hardtimes-iphone.png",
+		"outputAbbreviatedPath": "\/img\/hardtimes-iphone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hardtimes-macbook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160695,
+		"inputAbbreviatedPath": "\/img\/hardtimes-macbook.png",
+		"outputAbbreviatedPath": "\/img\/hardtimes-macbook.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -694,6 +754,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/placeholder.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4302,
+		"inputAbbreviatedPath": "\/img\/placeholder.png",
+		"outputAbbreviatedPath": "\/img\/placeholder.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/planet-creator copy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -888,6 +959,28 @@
 		"initialSize": 21684,
 		"inputAbbreviatedPath": "\/img\/the-hard-times.png",
 		"outputAbbreviatedPath": "\/img\/the-hard-times.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tile-iphone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.4859e+06,
+		"inputAbbreviatedPath": "\/img\/tile-iphone.png",
+		"outputAbbreviatedPath": "\/img\/tile-iphone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tile-page.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 995604,
+		"inputAbbreviatedPath": "\/img\/tile-page.png",
+		"outputAbbreviatedPath": "\/img\/tile-page.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

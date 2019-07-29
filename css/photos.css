@@ -1,401 +1,57 @@
-/***************************
-(1.1) - Animations
-***************************/
-@keyframes fadeIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@keyframes moveup {
-  0% {
-    margin-top: 200px; }
-  100% {
-    margin-top: 0px; } }
-@keyframes slideText {
-  0% {
-    text-indent: 9999px; }
-  100% {
-    text-inden: 0; } }
-/***************************
-(1.2) - Define Grid
-***************************/
-.container {
-  max-width: 768px;
-  margin: 0 auto; }
-  .container--fluid {
-    margin: 0;
-    max-width: 100%; }
-  .container__row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px; }
-  .container__col-sm-1 {
-    flex-basis: 8.3333333333%;
-    padding: 0 15px;
-    position: relative;
-    z-index: 0; }
-  .container__col-sm-offset-1 {
-    margin-left: 8.3333333333%; }
-  .container__col-sm-2 {
-    flex-basis: 16.6666666667%;
-    padding: 0 15px;
-    position: relative;
-    z-index: 0; }
-  .container__col-sm-offset-2 {
-    margin-left: 16.6666666667%; }
-  .container__col-sm-3 {
-    flex-basis: 25%;
-    padding: 0 15px;
-    position: relative;
-    z-index: 0; }
-  .container__col-sm-offset-3 {
-    margin-left: 25%; }
-  .container__col-sm-4 {
-    flex-basis: 33.3333333333%;
-    padding: 0 15px;
-    position: relative;
-    z-index: 0; }
-  .container__col-sm-offset-4 {
-    margin-left: 33.3333333333%; }
-  .container__col-sm-5 {
-    flex-basis: 41.6666666667%;
-    padding: 0 15px;
-    position: relative;
-    z-index: 0; }
-  .container__col-sm-offset-5 {
-    margin-left: 41.6666666667%; }
-  .container__col-sm-6 {
-    flex-basis: 50%;
-    padding: 0 15px;
-    position: relative;
-    z-index: 0; }
-  .container__col-sm-offset-6 {
-    margin-left: 50%; }
-  .container__col-sm-7 {
-    flex-basis: 58.3333333333%;
-    padding: 0 15px;
-    position: relative;
-    z-index: 0; }
-  .container__col-sm-offset-7 {
-    margin-left: 58.3333333333%; }
-  .container__col-sm-8 {
-    flex-basis: 66.6666666667%;
-    padding: 0 15px;
-    position: relative;
-    z-index: 0; }
-  .container__col-sm-offset-8 {
-    margin-left: 66.6666666667%; }
-  .container__col-sm-9 {
-    flex-basis: 75%;
-    padding: 0 15px;
-    position: relative;
-    z-index: 0; }
-  .container__col-sm-offset-9 {
-    margin-left: 75%; }
-  .container__col-sm-10 {
-    flex-basis: 83.3333333333%;
-    padding: 0 15px;
-    position: relative;
-    z-index: 0; }
-  .container__col-sm-offset-10 {
-    margin-left: 83.3333333333%; }
-  .container__col-sm-11 {
-    flex-basis: 91.6666666667%;
-    padding: 0 15px;
-    position: relative;
-    z-index: 0; }
-  .container__col-sm-offset-11 {
-    margin-left: 91.6666666667%; }
-  .container__col-sm-12 {
-    flex-basis: 100%;
-    padding: 0 15px;
-    position: relative;
-    z-index: 0; }
-  .container__col-sm-offset-12 {
-    margin-left: 100%; }
-  @media screen and (min-width: 768px) {
-    .container__col-md-1 {
-      flex-basis: 8.3333333333%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-md-offset-1 {
-      margin-left: 8.3333333333%; }
-    .container__col-md-2 {
-      flex-basis: 16.6666666667%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-md-offset-2 {
-      margin-left: 16.6666666667%; }
-    .container__col-md-3 {
-      flex-basis: 25%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-md-offset-3 {
-      margin-left: 25%; }
-    .container__col-md-4 {
-      flex-basis: 33.3333333333%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-md-offset-4 {
-      margin-left: 33.3333333333%; }
-    .container__col-md-5 {
-      flex-basis: 41.6666666667%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-md-offset-5 {
-      margin-left: 41.6666666667%; }
-    .container__col-md-6 {
-      flex-basis: 50%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-md-offset-6 {
-      margin-left: 50%; }
-    .container__col-md-7 {
-      flex-basis: 58.3333333333%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-md-offset-7 {
-      margin-left: 58.3333333333%; }
-    .container__col-md-8 {
-      flex-basis: 66.6666666667%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-md-offset-8 {
-      margin-left: 66.6666666667%; }
-    .container__col-md-9 {
-      flex-basis: 75%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-md-offset-9 {
-      margin-left: 75%; }
-    .container__col-md-10 {
-      flex-basis: 83.3333333333%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-md-offset-10 {
-      margin-left: 83.3333333333%; }
-    .container__col-md-11 {
-      flex-basis: 91.6666666667%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-md-offset-11 {
-      margin-left: 91.6666666667%; }
-    .container__col-md-12 {
-      flex-basis: 100%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-md-offset-12 {
-      margin-left: 100%; } }
-  @media screen and (min-width: 992px) {
-    .container__col-lg-1 {
-      flex-basis: 8.3333333333%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-lg-offset-1 {
-      margin-left: 8.3333333333%; }
-    .container__col-lg-2 {
-      flex-basis: 16.6666666667%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-lg-offset-2 {
-      margin-left: 16.6666666667%; }
-    .container__col-lg-3 {
-      flex-basis: 25%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-lg-offset-3 {
-      margin-left: 25%; }
-    .container__col-lg-4 {
-      flex-basis: 33.3333333333%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-lg-offset-4 {
-      margin-left: 33.3333333333%; }
-    .container__col-lg-5 {
-      flex-basis: 41.6666666667%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-lg-offset-5 {
-      margin-left: 41.6666666667%; }
-    .container__col-lg-6 {
-      flex-basis: 50%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-lg-offset-6 {
-      margin-left: 50%; }
-    .container__col-lg-7 {
-      flex-basis: 58.3333333333%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-lg-offset-7 {
-      margin-left: 58.3333333333%; }
-    .container__col-lg-8 {
-      flex-basis: 66.6666666667%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-lg-offset-8 {
-      margin-left: 66.6666666667%; }
-    .container__col-lg-9 {
-      flex-basis: 75%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-lg-offset-9 {
-      margin-left: 75%; }
-    .container__col-lg-10 {
-      flex-basis: 83.3333333333%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-lg-offset-10 {
-      margin-left: 83.3333333333%; }
-    .container__col-lg-11 {
-      flex-basis: 91.6666666667%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-lg-offset-11 {
-      margin-left: 91.6666666667%; }
-    .container__col-lg-12 {
-      flex-basis: 100%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-lg-offset-12 {
-      margin-left: 100%; } }
-  @media screen and (min-width: 1280px) {
-    .container__col-xl-1 {
-      flex-basis: 8.3333333333%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-xl-offset-1 {
-      margin-left: 8.3333333333%; }
-    .container__col-xl-2 {
-      flex-basis: 16.6666666667%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-xl-offset-2 {
-      margin-left: 16.6666666667%; }
-    .container__col-xl-3 {
-      flex-basis: 25%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-xl-offset-3 {
-      margin-left: 25%; }
-    .container__col-xl-4 {
-      flex-basis: 33.3333333333%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-xl-offset-4 {
-      margin-left: 33.3333333333%; }
-    .container__col-xl-5 {
-      flex-basis: 41.6666666667%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-xl-offset-5 {
-      margin-left: 41.6666666667%; }
-    .container__col-xl-6 {
-      flex-basis: 50%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-xl-offset-6 {
-      margin-left: 50%; }
-    .container__col-xl-7 {
-      flex-basis: 58.3333333333%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-xl-offset-7 {
-      margin-left: 58.3333333333%; }
-    .container__col-xl-8 {
-      flex-basis: 66.6666666667%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-xl-offset-8 {
-      margin-left: 66.6666666667%; }
-    .container__col-xl-9 {
-      flex-basis: 75%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-xl-offset-9 {
-      margin-left: 75%; }
-    .container__col-xl-10 {
-      flex-basis: 83.3333333333%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-xl-offset-10 {
-      margin-left: 83.3333333333%; }
-    .container__col-xl-11 {
-      flex-basis: 91.6666666667%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-xl-offset-11 {
-      margin-left: 91.6666666667%; }
-    .container__col-xl-12 {
-      flex-basis: 100%;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0; }
-    .container__col-xl-offset-12 {
-      margin-left: 100%; } }
+/*
+Error: Undefined variable: "$breakpoint-md".
+        on line 35 of /Users/clayton_hebenik/Documents/claytonhebenik.com/photos.scss
 
-.photo__small {
-  height: 300px;
-  overflow: hidden;
-  margin-bottom: 15px;
-  text-align: center; }
-  .photo__small img {
-    width: 300%;
-    max-width: 300%; }
-  .photo__small a:hover {
-    opacity: 0.5; }
+30:     position: relative;
+31:     margin: 0 auto;
+32:     display: block;
+33: }
+34: 
+35: @media screen and (max-width: $breakpoint-md * 1px) {
+36:     .photo__small {
+37:         height: auto;
+38:         margin-bottom: 0;
+39:         img {
+40:             width: 100%;
 
-.photo {
-  width: auto;
-  height: 90%;
-  top: 5%;
-  position: relative;
-  margin: 0 auto;
-  display: block; }
-
-@media screen and (max-width: 768px) {
-  .photo__small {
-    height: auto;
-    margin-bottom: 0; }
-    .photo__small img {
-      width: 100%; }
-
-  .photo {
-    height: auto;
-    top: 45px; } }
+Backtrace:
+/Users/clayton_hebenik/Documents/claytonhebenik.com/photos.scss:35
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/operation.rb:64:in `_perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:540:in `block in run_interp_no_strip'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:538:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:538:in `run_interp_no_strip'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:545:in `run_interp'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:510:in `visit_media'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:423:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$breakpoint-md\".\A         on line 35 of /Users/clayton_hebenik/Documents/claytonhebenik.com/photos.scss\A \A 30:     position: relative;\A 31:     margin: 0 auto;\A 32:     display: block;\A 33: }\A 34: \A 35: @media screen and (max-width: $breakpoint-md * 1px) {\A 36:     .photo__small {\A 37:         height: auto;\A 38:         margin-bottom: 0;\A 39:         img {\A 40:             width: 100%;"; }
