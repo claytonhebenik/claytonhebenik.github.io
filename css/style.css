@@ -132,7 +132,6 @@ img {
   padding: 0 24px; }
 
 .container {
-  max-width: 1440px;
   margin: 0 auto; }
   .container--fluid {
     margin: 0;
@@ -698,6 +697,11 @@ button.close {
     color: #aaa; }
     .portfolio-item .portfolio-title.active span {
       display: block; }
+.portfolio-item button {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0; }
 .portfolio-item p {
   margin: 0; }
 .portfolio-container {
