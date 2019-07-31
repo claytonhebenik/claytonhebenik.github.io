@@ -444,6 +444,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/canon-brandstore.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166941,
+		"inputAbbreviatedPath": "\/img\/canon-brandstore.jpg",
+		"outputAbbreviatedPath": "\/img\/canon-brandstore.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/canon-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22061,
+		"inputAbbreviatedPath": "\/img\/canon-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/canon-thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/canon-thumb@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63989,
+		"inputAbbreviatedPath": "\/img\/canon-thumb@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/canon-thumb@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/clayton-hebenik.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -506,6 +539,39 @@
 		"initialSize": 224972,
 		"inputAbbreviatedPath": "\/img\/flashsale@2x.jpg",
 		"outputAbbreviatedPath": "\/img\/flashsale@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/frigidaire-brandstore.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 179723,
+		"inputAbbreviatedPath": "\/img\/frigidaire-brandstore.jpg",
+		"outputAbbreviatedPath": "\/img\/frigidaire-brandstore.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/frigidaire-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30460,
+		"inputAbbreviatedPath": "\/img\/frigidaire-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/frigidaire-thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/frigidaire-thumb@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85013,
+		"inputAbbreviatedPath": "\/img\/frigidaire-thumb@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/frigidaire-thumb@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1045,6 +1111,17 @@
 		"initialSize": 59729,
 		"inputAbbreviatedPath": "\/img\/suncoast-logo.png",
 		"outputAbbreviatedPath": "\/img\/suncoast-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/suncoast-louvered-roofs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 192452,
+		"inputAbbreviatedPath": "\/img\/suncoast-louvered-roofs.jpg",
+		"outputAbbreviatedPath": "\/img\/suncoast-louvered-roofs.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
