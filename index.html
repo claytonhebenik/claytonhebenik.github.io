@@ -41,7 +41,8 @@
     <section class="top-bar padding-2">
       <div class="row">
         <div class="col-12-sm padding-left-2 margin-right-2">
-          <a href="/" class="margin-right-2">About</a>
+          <!-- <a href="/" class="margin-right-2">About</a> -->
+          <a href="#work" class="margin-right-2 hide">Work</a>
           <a href="#contact">Contact</a>
         </div>
       </div>
@@ -62,7 +63,7 @@
     <!-- End of Header -->
 
     <!-- Portfolio Content -->
-    <section class="content margin-bottom-12 padding-bottom-10 padding-top-10 padding-left-2 padding-right-2">
+    <section class="content margin-bottom-12 padding-bottom-10 padding-top-10 padding-left-2 padding-right-2" id="work">
       <div class="row">
         <div class="col-10-md col-12-sm offset-1-col-md">
           <h2>Selected work</h2>
@@ -337,27 +338,27 @@
   <script>
     document.querySelector('button.bby1').onclick = () => {
       basicLightbox.create(`
-      <img width="1400" height="900" src="img/flashsale-bby.jpg">
+      <img src="img/flashsale-bby.jpg">
       <div class="caption">Flash Sale slideshow banner</div>
     `).show()
     }
     document.querySelector('button.bby2').onclick = () => {
       basicLightbox.create(`
-      <img width="1400" height="900" src="img/tile-brandstore.jpg">
+      <img src="img/tile-brandstore.jpg">
       <div class="caption"><a href="https://www.bestbuy.ca/en-ca/brand-hub/tile/blt3ea6e015b148417b" target="_blank"
                         rel="nofollow">Tile Brand Page</a></div>
     `).show()
     }
     document.querySelector('button.bby3').onclick = () => {
       basicLightbox.create(`
-      <img width="1400" height="900" src="img/canon-brandstore.jpg">
+      <img src="img/canon-brandstore.jpg">
       <div class="caption"><a href="https://www.bestbuy.ca/en-ca/brand-hub/canon/blt4466dc2b9a1f1f3f" target="_blank"
                         rel="nofollow">Canon Brand Store</a></div>
     `).show()
     }
     document.querySelector('button.bby4').onclick = () => {
       basicLightbox.create(`
-      <img width="1400" height="900" src="img/frigidaire-brandstore.jpg">
+      <img src="img/frigidaire-brandstore.jpg">
       <div class="caption">Legacy site Frigidaire Brand Store</div>
     `).show()
     }

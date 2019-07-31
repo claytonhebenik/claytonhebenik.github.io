@@ -638,15 +638,9 @@ button.close {
     margin-top: -2px;
     transform: rotate(-45deg); }
 
-@media screen and (max-width: 768px) {
-  span.hide {
-    display: none; }
-
-  #site__heading {
-    width: 50%; }
-
-  .button, button.close {
-    z-index: 200; } }
+@media screen and (min-width: 768px) {
+  .hide {
+    display: none; } }
 @media screen and (max-width: 768px) {
   .lockup {
     font-size: 3.6rem;
