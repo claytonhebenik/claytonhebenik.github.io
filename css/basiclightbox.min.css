@@ -67,6 +67,10 @@
     transform: scale(1)
 }
 
+.basicLightbox__placeholder img {
+    max-height: 750px;
+}
+
 .caption {
     background: white;
     margin-top: -5px;
