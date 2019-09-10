@@ -7,108 +7,8 @@
 /***************************
 (0.2) - Variables
 ***************************/
-/******************************************************
-(1.0) - Global Styles
-******************************************************/
-html {
-  box-sizing: border-box; }
-
-body {
-  margin: 0;
-  overflow-x: hidden !important; }
-
-*, *:before, *:after {
-  box-sizing: inherit;
-  z-index: 0; }
-
-body {
-  background: white;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif; }
-
-h1, h2, h3, h4 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 400;
-  margin-bottom: 0; }
-  h1 + p, h2 + p, h3 + p, h4 + p {
-    margin-bottom: 5px; }
-
-h1 {
-  font-size: 24px;
-  margin: 20px 0; }
-
-a:link {
-  text-decoration: underline; }
-
-/** Text Stroke 
-    https://css-tricks.com/text-stroke-stuck-middle/ 
-**/
-@supports ((-webkit-text-stroke-color: #000) and (-webkit-text-fill-color: white)) or ((-moz-text-stroke-color: #000) and (-moz-text-fill-color: white)) {
-  .lockup {
-    -moz-text-fill-color: #ffffff3a;
-    -webkit-text-fill-color: #ffffff3a;
-    -moz-text-stroke-color: #000;
-    -webkit-text-stroke-color: #000;
-    -moz-text-stroke-width: 1px;
-    -webkit-text-stroke-width: 1px; }
-    .lockup a:hover {
-      -moz-text-fill-color: #000;
-      -webkit-text-fill-color: #000; } }
-.lockup {
-  font-family: 'Roboto', sans-serif;
-  font-size: 5em;
-  font-style: italic;
-  font-weight: 900;
-  letter-spacing: 1px;
-  line-height: 4.5rem;
-  margin: 0;
-  text-transform: uppercase; }
-
-.lockup span.block {
-  display: block;
-  position: relative; }
-  .lockup span.block::before {
-    content: '';
-    height: 25px;
-    width: 100%;
-    max-width: 310px;
-    position: absolute;
-    top: 25px;
-    left: -20px;
-    z-index: -1; }
-
-p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  line-height: 1.8em; }
-
-ul li {
-  font-size: 18px;
-  margin: 8px 0;
-  list-style: circle;
-  list-style-type: circle; }
-
-button {
-  cursor: pointer; }
-  button:focus {
-    outline: none; }
-
-a {
-  color: #414042;
-  text-decoration: none;
-  transition: all 0.2s ease;
-  position: relative;
-  overflow: hidden; }
-  a:hover {
-    color: #aaa;
-    text-decoration: underline; }
-
-img {
-  width: 100%;
-  max-width: 100%; }
-
 /***************************
-(1.1) - Animations
+(0.3) - Imports
 ***************************/
 @keyframes fadeIn {
   0% {
@@ -125,9 +25,6 @@ img {
     text-indent: 9999px; }
   100% {
     text-inden: 0; } }
-/***************************
-(1.2) - Define Grid
-***************************/
 .container-fluid {
   padding: 0 24px; }
 
@@ -143,6 +40,10 @@ img {
   margin-right: -8px;
   margin-left: -8px; }
 
+@media screen and (min-width: 768px) {
+  .col-md-center {
+    margin-left: auto;
+    margin-right: auto; } }
 .col-1-sm {
   flex-basis: 8.3333333333%;
   padding: 0 8px;
@@ -576,6 +477,210 @@ img {
   .offset-12-col-xl {
     margin-left: 100%; } }
 /******************************************************
+(1.0) - Global Styles
+******************************************************/
+html {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  overflow-x: hidden !important; }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  z-index: 0; }
+
+body {
+  background: white;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif; }
+
+h1, h2, h3, h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 0; }
+  h1 + p, h2 + p, h3 + p, h4 + p {
+    margin-bottom: 5px; }
+
+h1 {
+  font-size: 24px; }
+
+/** Text Stroke 
+    https://css-tricks.com/text-stroke-stuck-middle/ 
+**/
+@supports ((-webkit-text-stroke-color: #22272F) and (-webkit-text-fill-color: white)) or ((-moz-text-stroke-color: #22272F) and (-moz-text-fill-color: white)) {
+  .lockup {
+    -moz-text-fill-color: #ffffff3a;
+    -webkit-text-fill-color: #ffffff3a;
+    -moz-text-stroke-color: #22272F;
+    -webkit-text-stroke-color: #22272F;
+    -moz-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1px; }
+    .lockup a:hover {
+      -moz-text-fill-color: #22272F;
+      -webkit-text-fill-color: #22272F; } }
+.lockup {
+  font-family: 'Roboto', sans-serif;
+  font-size: 5em;
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 4.5rem;
+  text-transform: uppercase; }
+
+.lockup span.block {
+  display: block;
+  position: relative; }
+  .lockup span.block::before {
+    content: '';
+    height: 25px;
+    width: 100%;
+    max-width: 310px;
+    position: absolute;
+    top: 25px;
+    left: -20px;
+    z-index: -1; }
+
+.logo {
+  max-width: 50px; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.8em; }
+
+ul li, ol li {
+  font-size: 18px;
+  margin: 8px 0; }
+
+ul > li {
+  list-style: circle;
+  list-style-type: circle; }
+
+ol > li {
+  list-style: decimal-leading-zero;
+  list-style-type: decimal-leading-zero; }
+
+button {
+  cursor: pointer; }
+  button:focus {
+    outline: none; }
+
+.modal-button {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: relative; }
+  .modal-button:hover img {
+    opacity: 0.5; }
+  .modal-button .svg {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    z-index: 1; }
+    .modal-button .svg svg {
+      width: 100%; }
+  .modal-button:hover .svg {
+    opacity: 1;
+    cursor: pointer;
+    display: block; }
+
+a {
+  color: #22272F;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden; }
+  a:hover {
+    color: #aaa;
+    text-decoration: underline; }
+
+img {
+  width: 100%;
+  max-width: 100%; }
+
+.primary-cta {
+  padding: 8px 0;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  text-decoration: none; }
+  .primary-cta:after {
+    content: '';
+    border: 1px solid #22272F;
+    height: 100%;
+    width: 124%;
+    position: absolute;
+    bottom: 0;
+    left: -12%;
+    transform: skewX(-25deg);
+    z-index: -1;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer; }
+  .primary-cta:hover {
+    padding: 8px;
+    color: white;
+    text-decoration: none; }
+    .primary-cta:hover:after {
+      width: 200%;
+      background: #22272F; }
+
+.background-white {
+  background-color: white; }
+
+.background-offwhite {
+  background-color: #f5f5f5; }
+
+.background-dark {
+  background-color: #22272F;
+  color: #f5f5f5; }
+
+.background-hardtimes {
+  background-color: #3eb565; }
+
+.background-harddrive {
+  background-color: #5c23a9; }
+
+.background-planetcreator {
+  background-color: #22272F;
+  background-image: url("/img/work/planet-creator-hero-bg.jpg");
+  background-position: 65% top;
+  background-repeat: no-repeat; }
+  @media screen and (max-width: 768px) {
+    .background-planetcreator {
+      background-size: auto 100%; } }
+
+.background-bby-blue {
+  background-color: #0046be; }
+
+.background-bby-yellow {
+  background-color: #fece00; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+.font-l {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 48px;
+  font-weight: 400; }
+
+@media screen and (max-width: 768px) {
+  .font-l {
+    line-height: 1.1em; } }
+.align-center {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center; }
+
+/******************************************************
 (2.0) - Page Elements
 ******************************************************/
 /***************************
@@ -596,7 +701,7 @@ header {
 .button, button.close {
   background: white;
   box-sizing: initial;
-  border: 2px solid #414042;
+  border: 2px solid #22272F;
   padding: 5px; }
   .button:hover, button.close:hover {
     z-index: 1;
@@ -607,7 +712,7 @@ a.button {
   position: relative; }
   a.button:hover {
     color: white;
-    background: #414042; }
+    background: #22272F; }
 
 button.close {
   position: absolute;
@@ -622,7 +727,7 @@ button.close {
     display: block;
     width: 20px;
     height: 2px;
-    background: #414042;
+    background: #22272F;
     border-radius: 1px;
     opacity: 1;
     transition: all 0.5s ease-in-out; }
@@ -646,17 +751,20 @@ button.close {
     font-size: 3.6rem;
     line-height: 3.3rem; }
 
+  .portfolio-detail header .lockup {
+    font-size: 2rem;
+    line-height: 2.1rem; }
+
   h2 {
     font-size: 1.3rem; } }
 /***************************
 (2.3.1) - Top Bar
 ***************************/
 .top-bar {
-  background: #fafafa;
+  background: #f5f5f5;
   font-family: "Roboto Condensed", sans-serif; }
-  @media screen and (min-width: 768px) {
-    .top-bar {
-      text-align: right; } }
+  .top-bar .row {
+    align-items: center; }
   .top-bar a:link {
     text-decoration: none; }
   .top-bar a:hover {
@@ -665,17 +773,15 @@ button.close {
 /***************************
 (2.2.0) - Content
 ***************************/
-.content {
-  background: #fafafa; }
-  .content h2, .content p.lead {
-    color: #aaa;
-    font-weight: 300;
-    margin: 0; }
-  .content > div {
-    -o-animation: fadeIn, fadeIn 0.25s linear;
-    -moz-animation: fadeIn, fadeIn 0.25s linear;
-    -webkit-animation: fadeIn, fadeIn 0.25s linear;
-    animation: fadeIn, fadeIn 0.25s linear; }
+.content h2, .content p.lead {
+  color: #aaa;
+  font-weight: 300;
+  margin: 0; }
+.content > div {
+  -o-animation: fadeIn, fadeIn 0.25s linear;
+  -moz-animation: fadeIn, fadeIn 0.25s linear;
+  -webkit-animation: fadeIn, fadeIn 0.25s linear;
+  animation: fadeIn, fadeIn 0.25s linear; }
 
 /***************************
 (2.2.1) - Work (portfolio)
@@ -683,17 +789,13 @@ button.close {
 .portfolio-item .portfolio-title {
   background: none;
   border: none;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 48px;
-  font-weight: 400;
   margin: 0;
   padding: 0;
   text-align: left;
   width: 100%; }
   @media screen and (max-width: 768px) {
     .portfolio-item .portfolio-title {
-      margin-bottom: 16px;
-      line-height: 1.1em; } }
+      margin-bottom: 16px; } }
   .portfolio-item .portfolio-title:hover {
     color: #aaa;
     cursor: pointer;
@@ -707,13 +809,6 @@ button.close {
     color: #aaa; }
     .portfolio-item .portfolio-title.active span {
       display: block; }
-.portfolio-item button {
-  background: none;
-  border: none;
-  margin: 0;
-  padding: 0; }
-  .portfolio-item button:hover img {
-    opacity: 0.5; }
 .portfolio-item p {
   margin: 0; }
 .portfolio-container {
@@ -748,12 +843,32 @@ button.close {
     margin: 5px; }
     .portfolio__item:hover {
       margin: 5px; } }
+/******************************************************
+(3.0) - Portfolio Detail Page
+******************************************************/
+.overview img {
+  vertical-align: bottom; }
+@media screen and (min-width: 768px) {
+  .overview img {
+    width: 65%; } }
+
+.screenshot {
+  max-height: 500px;
+  overflow-y: scroll; }
+  @media screen and (max-width: 768px) {
+    .screenshot {
+      max-height: 300px; } }
+
+.related a:hover img {
+  transition: opacity 0.15s ease-in-out;
+  opacity: 0.5; }
+
 /***************************
 (2.2.2) - Modal Windows
 ***************************/
 .overlay {
   display: none;
-  background: #414042;
+  background: #22272F;
   opacity: 0.5;
   width: 100%;
   height: 100%;
@@ -801,7 +916,7 @@ button.close {
   .modal .modal-link {
     position: absolute;
     padding: 5px;
-    color: #414042;
+    color: #22272F;
     background: none;
     right: 5px;
     z-index: 2;
@@ -810,7 +925,7 @@ button.close {
     .modal .modal-link .bar {
       width: 20px;
       height: 2px;
-      background: #414042;
+      background: #22272F;
       border-radius: 1px;
       opacity: 1;
       transform: rotate(45deg); }
@@ -861,7 +976,7 @@ body.fancy {
   transition: all 8s ease-in-out; }
   body.fancy header {
     background: #222;
-    border-right: 1px solid #414042;
+    border-right: 1px solid #22272F;
     width: 500px;
     height: 100%;
     float: left;
@@ -1044,158 +1159,158 @@ body.fancy {
   padding-top: 0px; }
 
 .container .margin-top-negative-0 {
-  padding-top: 0px; }
+  margin-top: 0px; }
 
 .container .padding-top-1 {
   padding-top: 8px; }
 
 .container .margin-top-negative-1 {
-  padding-top: -8px; }
+  margin-top: -8px; }
 
 .container .padding-top-2 {
   padding-top: 16px; }
 
 .container .margin-top-negative-2 {
-  padding-top: -16px; }
+  margin-top: -16px; }
 
 .container .padding-top-3 {
   padding-top: 24px; }
 
 .container .margin-top-negative-3 {
-  padding-top: -24px; }
+  margin-top: -24px; }
 
 .container .padding-top-4 {
   padding-top: 32px; }
 
 .container .margin-top-negative-4 {
-  padding-top: -32px; }
+  margin-top: -32px; }
 
 .container .padding-top-5 {
   padding-top: 40px; }
 
 .container .margin-top-negative-5 {
-  padding-top: -40px; }
+  margin-top: -40px; }
 
 .container .padding-top-6 {
   padding-top: 48px; }
 
 .container .margin-top-negative-6 {
-  padding-top: -48px; }
+  margin-top: -48px; }
 
 .container .padding-top-7 {
   padding-top: 56px; }
 
 .container .margin-top-negative-7 {
-  padding-top: -56px; }
+  margin-top: -56px; }
 
 .container .padding-top-8 {
   padding-top: 64px; }
 
 .container .margin-top-negative-8 {
-  padding-top: -64px; }
+  margin-top: -64px; }
 
 .container .padding-top-9 {
   padding-top: 72px; }
 
 .container .margin-top-negative-9 {
-  padding-top: -72px; }
+  margin-top: -72px; }
 
 .container .padding-top-10 {
   padding-top: 80px; }
 
 .container .margin-top-negative-10 {
-  padding-top: -80px; }
+  margin-top: -80px; }
 
 .container .padding-top-11 {
   padding-top: 88px; }
 
 .container .margin-top-negative-11 {
-  padding-top: -88px; }
+  margin-top: -88px; }
 
 .container .padding-top-12 {
   padding-top: 96px; }
 
 .container .margin-top-negative-12 {
-  padding-top: -96px; }
+  margin-top: -96px; }
 
 @media screen and (min-width: 768px) {
   .container .padding-top-0-md {
     padding-top: 0px; }
 
   .container .margin-top-negative-0-md {
-    padding-top: 0px; }
+    margin-top: 0px; }
 
   .container .padding-top-1-md {
     padding-top: 8px; }
 
   .container .margin-top-negative-1-md {
-    padding-top: -8px; }
+    margin-top: -8px; }
 
   .container .padding-top-2-md {
     padding-top: 16px; }
 
   .container .margin-top-negative-2-md {
-    padding-top: -16px; }
+    margin-top: -16px; }
 
   .container .padding-top-3-md {
     padding-top: 24px; }
 
   .container .margin-top-negative-3-md {
-    padding-top: -24px; }
+    margin-top: -24px; }
 
   .container .padding-top-4-md {
     padding-top: 32px; }
 
   .container .margin-top-negative-4-md {
-    padding-top: -32px; }
+    margin-top: -32px; }
 
   .container .padding-top-5-md {
     padding-top: 40px; }
 
   .container .margin-top-negative-5-md {
-    padding-top: -40px; }
+    margin-top: -40px; }
 
   .container .padding-top-6-md {
     padding-top: 48px; }
 
   .container .margin-top-negative-6-md {
-    padding-top: -48px; }
+    margin-top: -48px; }
 
   .container .padding-top-7-md {
     padding-top: 56px; }
 
   .container .margin-top-negative-7-md {
-    padding-top: -56px; }
+    margin-top: -56px; }
 
   .container .padding-top-8-md {
     padding-top: 64px; }
 
   .container .margin-top-negative-8-md {
-    padding-top: -64px; }
+    margin-top: -64px; }
 
   .container .padding-top-9-md {
     padding-top: 72px; }
 
   .container .margin-top-negative-9-md {
-    padding-top: -72px; }
+    margin-top: -72px; }
 
   .container .padding-top-10-md {
     padding-top: 80px; }
 
   .container .margin-top-negative-10-md {
-    padding-top: -80px; }
+    margin-top: -80px; }
 
   .container .padding-top-11-md {
     padding-top: 88px; }
 
   .container .margin-top-negative-11-md {
-    padding-top: -88px; }
+    margin-top: -88px; }
 
   .container .padding-top-12-md {
     padding-top: 96px; }
 
   .container .margin-top-negative-12-md {
-    padding-top: -96px; } }
+    margin-top: -96px; } }
 .container .margin-left-0 {
   margin-left: 0px; }
 
@@ -1356,158 +1471,158 @@ body.fancy {
   padding-left: 0px; }
 
 .container .margin-left-negative-0 {
-  padding-left: 0px; }
+  margin-left: 0px; }
 
 .container .padding-left-1 {
   padding-left: 8px; }
 
 .container .margin-left-negative-1 {
-  padding-left: -8px; }
+  margin-left: -8px; }
 
 .container .padding-left-2 {
   padding-left: 16px; }
 
 .container .margin-left-negative-2 {
-  padding-left: -16px; }
+  margin-left: -16px; }
 
 .container .padding-left-3 {
   padding-left: 24px; }
 
 .container .margin-left-negative-3 {
-  padding-left: -24px; }
+  margin-left: -24px; }
 
 .container .padding-left-4 {
   padding-left: 32px; }
 
 .container .margin-left-negative-4 {
-  padding-left: -32px; }
+  margin-left: -32px; }
 
 .container .padding-left-5 {
   padding-left: 40px; }
 
 .container .margin-left-negative-5 {
-  padding-left: -40px; }
+  margin-left: -40px; }
 
 .container .padding-left-6 {
   padding-left: 48px; }
 
 .container .margin-left-negative-6 {
-  padding-left: -48px; }
+  margin-left: -48px; }
 
 .container .padding-left-7 {
   padding-left: 56px; }
 
 .container .margin-left-negative-7 {
-  padding-left: -56px; }
+  margin-left: -56px; }
 
 .container .padding-left-8 {
   padding-left: 64px; }
 
 .container .margin-left-negative-8 {
-  padding-left: -64px; }
+  margin-left: -64px; }
 
 .container .padding-left-9 {
   padding-left: 72px; }
 
 .container .margin-left-negative-9 {
-  padding-left: -72px; }
+  margin-left: -72px; }
 
 .container .padding-left-10 {
   padding-left: 80px; }
 
 .container .margin-left-negative-10 {
-  padding-left: -80px; }
+  margin-left: -80px; }
 
 .container .padding-left-11 {
   padding-left: 88px; }
 
 .container .margin-left-negative-11 {
-  padding-left: -88px; }
+  margin-left: -88px; }
 
 .container .padding-left-12 {
   padding-left: 96px; }
 
 .container .margin-left-negative-12 {
-  padding-left: -96px; }
+  margin-left: -96px; }
 
 @media screen and (min-width: 768px) {
   .container .padding-left-0-md {
     padding-left: 0px; }
 
   .container .margin-left-negative-0-md {
-    padding-left: 0px; }
+    margin-left: 0px; }
 
   .container .padding-left-1-md {
     padding-left: 8px; }
 
   .container .margin-left-negative-1-md {
-    padding-left: -8px; }
+    margin-left: -8px; }
 
   .container .padding-left-2-md {
     padding-left: 16px; }
 
   .container .margin-left-negative-2-md {
-    padding-left: -16px; }
+    margin-left: -16px; }
 
   .container .padding-left-3-md {
     padding-left: 24px; }
 
   .container .margin-left-negative-3-md {
-    padding-left: -24px; }
+    margin-left: -24px; }
 
   .container .padding-left-4-md {
     padding-left: 32px; }
 
   .container .margin-left-negative-4-md {
-    padding-left: -32px; }
+    margin-left: -32px; }
 
   .container .padding-left-5-md {
     padding-left: 40px; }
 
   .container .margin-left-negative-5-md {
-    padding-left: -40px; }
+    margin-left: -40px; }
 
   .container .padding-left-6-md {
     padding-left: 48px; }
 
   .container .margin-left-negative-6-md {
-    padding-left: -48px; }
+    margin-left: -48px; }
 
   .container .padding-left-7-md {
     padding-left: 56px; }
 
   .container .margin-left-negative-7-md {
-    padding-left: -56px; }
+    margin-left: -56px; }
 
   .container .padding-left-8-md {
     padding-left: 64px; }
 
   .container .margin-left-negative-8-md {
-    padding-left: -64px; }
+    margin-left: -64px; }
 
   .container .padding-left-9-md {
     padding-left: 72px; }
 
   .container .margin-left-negative-9-md {
-    padding-left: -72px; }
+    margin-left: -72px; }
 
   .container .padding-left-10-md {
     padding-left: 80px; }
 
   .container .margin-left-negative-10-md {
-    padding-left: -80px; }
+    margin-left: -80px; }
 
   .container .padding-left-11-md {
     padding-left: 88px; }
 
   .container .margin-left-negative-11-md {
-    padding-left: -88px; }
+    margin-left: -88px; }
 
   .container .padding-left-12-md {
     padding-left: 96px; }
 
   .container .margin-left-negative-12-md {
-    padding-left: -96px; } }
+    margin-left: -96px; } }
 .container .margin-bottom-0 {
   margin-bottom: 0px; }
 
@@ -1668,158 +1783,158 @@ body.fancy {
   padding-bottom: 0px; }
 
 .container .margin-bottom-negative-0 {
-  padding-bottom: 0px; }
+  margin-bottom: 0px; }
 
 .container .padding-bottom-1 {
   padding-bottom: 8px; }
 
 .container .margin-bottom-negative-1 {
-  padding-bottom: -8px; }
+  margin-bottom: -8px; }
 
 .container .padding-bottom-2 {
   padding-bottom: 16px; }
 
 .container .margin-bottom-negative-2 {
-  padding-bottom: -16px; }
+  margin-bottom: -16px; }
 
 .container .padding-bottom-3 {
   padding-bottom: 24px; }
 
 .container .margin-bottom-negative-3 {
-  padding-bottom: -24px; }
+  margin-bottom: -24px; }
 
 .container .padding-bottom-4 {
   padding-bottom: 32px; }
 
 .container .margin-bottom-negative-4 {
-  padding-bottom: -32px; }
+  margin-bottom: -32px; }
 
 .container .padding-bottom-5 {
   padding-bottom: 40px; }
 
 .container .margin-bottom-negative-5 {
-  padding-bottom: -40px; }
+  margin-bottom: -40px; }
 
 .container .padding-bottom-6 {
   padding-bottom: 48px; }
 
 .container .margin-bottom-negative-6 {
-  padding-bottom: -48px; }
+  margin-bottom: -48px; }
 
 .container .padding-bottom-7 {
   padding-bottom: 56px; }
 
 .container .margin-bottom-negative-7 {
-  padding-bottom: -56px; }
+  margin-bottom: -56px; }
 
 .container .padding-bottom-8 {
   padding-bottom: 64px; }
 
 .container .margin-bottom-negative-8 {
-  padding-bottom: -64px; }
+  margin-bottom: -64px; }
 
 .container .padding-bottom-9 {
   padding-bottom: 72px; }
 
 .container .margin-bottom-negative-9 {
-  padding-bottom: -72px; }
+  margin-bottom: -72px; }
 
 .container .padding-bottom-10 {
   padding-bottom: 80px; }
 
 .container .margin-bottom-negative-10 {
-  padding-bottom: -80px; }
+  margin-bottom: -80px; }
 
 .container .padding-bottom-11 {
   padding-bottom: 88px; }
 
 .container .margin-bottom-negative-11 {
-  padding-bottom: -88px; }
+  margin-bottom: -88px; }
 
 .container .padding-bottom-12 {
   padding-bottom: 96px; }
 
 .container .margin-bottom-negative-12 {
-  padding-bottom: -96px; }
+  margin-bottom: -96px; }
 
 @media screen and (min-width: 768px) {
   .container .padding-bottom-0-md {
     padding-bottom: 0px; }
 
   .container .margin-bottom-negative-0-md {
-    padding-bottom: 0px; }
+    margin-bottom: 0px; }
 
   .container .padding-bottom-1-md {
     padding-bottom: 8px; }
 
   .container .margin-bottom-negative-1-md {
-    padding-bottom: -8px; }
+    margin-bottom: -8px; }
 
   .container .padding-bottom-2-md {
     padding-bottom: 16px; }
 
   .container .margin-bottom-negative-2-md {
-    padding-bottom: -16px; }
+    margin-bottom: -16px; }
 
   .container .padding-bottom-3-md {
     padding-bottom: 24px; }
 
   .container .margin-bottom-negative-3-md {
-    padding-bottom: -24px; }
+    margin-bottom: -24px; }
 
   .container .padding-bottom-4-md {
     padding-bottom: 32px; }
 
   .container .margin-bottom-negative-4-md {
-    padding-bottom: -32px; }
+    margin-bottom: -32px; }
 
   .container .padding-bottom-5-md {
     padding-bottom: 40px; }
 
   .container .margin-bottom-negative-5-md {
-    padding-bottom: -40px; }
+    margin-bottom: -40px; }
 
   .container .padding-bottom-6-md {
     padding-bottom: 48px; }
 
   .container .margin-bottom-negative-6-md {
-    padding-bottom: -48px; }
+    margin-bottom: -48px; }
 
   .container .padding-bottom-7-md {
     padding-bottom: 56px; }
 
   .container .margin-bottom-negative-7-md {
-    padding-bottom: -56px; }
+    margin-bottom: -56px; }
 
   .container .padding-bottom-8-md {
     padding-bottom: 64px; }
 
   .container .margin-bottom-negative-8-md {
-    padding-bottom: -64px; }
+    margin-bottom: -64px; }
 
   .container .padding-bottom-9-md {
     padding-bottom: 72px; }
 
   .container .margin-bottom-negative-9-md {
-    padding-bottom: -72px; }
+    margin-bottom: -72px; }
 
   .container .padding-bottom-10-md {
     padding-bottom: 80px; }
 
   .container .margin-bottom-negative-10-md {
-    padding-bottom: -80px; }
+    margin-bottom: -80px; }
 
   .container .padding-bottom-11-md {
     padding-bottom: 88px; }
 
   .container .margin-bottom-negative-11-md {
-    padding-bottom: -88px; }
+    margin-bottom: -88px; }
 
   .container .padding-bottom-12-md {
     padding-bottom: 96px; }
 
   .container .margin-bottom-negative-12-md {
-    padding-bottom: -96px; } }
+    margin-bottom: -96px; } }
 .container .margin-right-0 {
   margin-right: 0px; }
 
@@ -1980,158 +2095,158 @@ body.fancy {
   padding-right: 0px; }
 
 .container .margin-right-negative-0 {
-  padding-right: 0px; }
+  margin-right: 0px; }
 
 .container .padding-right-1 {
   padding-right: 8px; }
 
 .container .margin-right-negative-1 {
-  padding-right: -8px; }
+  margin-right: -8px; }
 
 .container .padding-right-2 {
   padding-right: 16px; }
 
 .container .margin-right-negative-2 {
-  padding-right: -16px; }
+  margin-right: -16px; }
 
 .container .padding-right-3 {
   padding-right: 24px; }
 
 .container .margin-right-negative-3 {
-  padding-right: -24px; }
+  margin-right: -24px; }
 
 .container .padding-right-4 {
   padding-right: 32px; }
 
 .container .margin-right-negative-4 {
-  padding-right: -32px; }
+  margin-right: -32px; }
 
 .container .padding-right-5 {
   padding-right: 40px; }
 
 .container .margin-right-negative-5 {
-  padding-right: -40px; }
+  margin-right: -40px; }
 
 .container .padding-right-6 {
   padding-right: 48px; }
 
 .container .margin-right-negative-6 {
-  padding-right: -48px; }
+  margin-right: -48px; }
 
 .container .padding-right-7 {
   padding-right: 56px; }
 
 .container .margin-right-negative-7 {
-  padding-right: -56px; }
+  margin-right: -56px; }
 
 .container .padding-right-8 {
   padding-right: 64px; }
 
 .container .margin-right-negative-8 {
-  padding-right: -64px; }
+  margin-right: -64px; }
 
 .container .padding-right-9 {
   padding-right: 72px; }
 
 .container .margin-right-negative-9 {
-  padding-right: -72px; }
+  margin-right: -72px; }
 
 .container .padding-right-10 {
   padding-right: 80px; }
 
 .container .margin-right-negative-10 {
-  padding-right: -80px; }
+  margin-right: -80px; }
 
 .container .padding-right-11 {
   padding-right: 88px; }
 
 .container .margin-right-negative-11 {
-  padding-right: -88px; }
+  margin-right: -88px; }
 
 .container .padding-right-12 {
   padding-right: 96px; }
 
 .container .margin-right-negative-12 {
-  padding-right: -96px; }
+  margin-right: -96px; }
 
 @media screen and (min-width: 768px) {
   .container .padding-right-0-md {
     padding-right: 0px; }
 
   .container .margin-right-negative-0-md {
-    padding-right: 0px; }
+    margin-right: 0px; }
 
   .container .padding-right-1-md {
     padding-right: 8px; }
 
   .container .margin-right-negative-1-md {
-    padding-right: -8px; }
+    margin-right: -8px; }
 
   .container .padding-right-2-md {
     padding-right: 16px; }
 
   .container .margin-right-negative-2-md {
-    padding-right: -16px; }
+    margin-right: -16px; }
 
   .container .padding-right-3-md {
     padding-right: 24px; }
 
   .container .margin-right-negative-3-md {
-    padding-right: -24px; }
+    margin-right: -24px; }
 
   .container .padding-right-4-md {
     padding-right: 32px; }
 
   .container .margin-right-negative-4-md {
-    padding-right: -32px; }
+    margin-right: -32px; }
 
   .container .padding-right-5-md {
     padding-right: 40px; }
 
   .container .margin-right-negative-5-md {
-    padding-right: -40px; }
+    margin-right: -40px; }
 
   .container .padding-right-6-md {
     padding-right: 48px; }
 
   .container .margin-right-negative-6-md {
-    padding-right: -48px; }
+    margin-right: -48px; }
 
   .container .padding-right-7-md {
     padding-right: 56px; }
 
   .container .margin-right-negative-7-md {
-    padding-right: -56px; }
+    margin-right: -56px; }
 
   .container .padding-right-8-md {
     padding-right: 64px; }
 
   .container .margin-right-negative-8-md {
-    padding-right: -64px; }
+    margin-right: -64px; }
 
   .container .padding-right-9-md {
     padding-right: 72px; }
 
   .container .margin-right-negative-9-md {
-    padding-right: -72px; }
+    margin-right: -72px; }
 
   .container .padding-right-10-md {
     padding-right: 80px; }
 
   .container .margin-right-negative-10-md {
-    padding-right: -80px; }
+    margin-right: -80px; }
 
   .container .padding-right-11-md {
     padding-right: 88px; }
 
   .container .margin-right-negative-11-md {
-    padding-right: -88px; }
+    margin-right: -88px; }
 
   .container .padding-right-12-md {
     padding-right: 96px; }
 
   .container .margin-right-negative-12-md {
-    padding-right: -96px; } }
+    margin-right: -96px; } }
 .container .margin-0 {
   margin: 0px; }
 

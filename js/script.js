@@ -28,3 +28,11 @@ for (i = 0; i < workTitle.length; i++) {
 //     // workDOM.style.display = 'block';
 //   }
 // });
+
+// ********************
+/*
+  Get identifier of link that is clicked
+
+  Find modal with the same ID 
+
+  Get */
