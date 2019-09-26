@@ -1346,6 +1346,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/portfolio-thumb@0,5x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26888,
+		"inputAbbreviatedPath": "\/img\/portfolio-thumb@0,5x.jpg",
+		"outputAbbreviatedPath": "\/img\/portfolio-thumb@0,5x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/portfolio-thumb@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58403,
+		"inputAbbreviatedPath": "\/img\/portfolio-thumb@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/portfolio-thumb@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/profile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1573,6 +1595,149 @@
 		"initialSize": 171884,
 		"inputAbbreviatedPath": "\/img\/tile-thumb@2x.jpg",
 		"outputAbbreviatedPath": "\/img\/tile-thumb@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44748,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-bg.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-bg@0,5x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15881,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-bg@0,5x.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-bg@0,5x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-dressup1-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73051,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-dressup1-full.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-dressup1-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-dressup1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19231,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-dressup1.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-dressup1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-dressup2-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92387,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-dressup2-full.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-dressup2-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-dressup2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24072,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-dressup2.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-dressup2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-hide-seek-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112630,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-hide-seek-full.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-hide-seek-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-hide-seek.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27406,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-hide-seek.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-hide-seek.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-ui-home-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25833,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-ui-home-full.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-ui-home-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-ui-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14154,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-ui-home.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-ui-home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-ui-page-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39802,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-ui-page-full.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-ui-page-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-ui-page.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19993,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-ui-page.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-ui-page.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-wind-game.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10371,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-wind-game.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-wind-game.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2502,6 +2667,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/work.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/work\/astro-and-max.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/work\/astro-and-max.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
