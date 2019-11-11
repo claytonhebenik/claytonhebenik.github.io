@@ -543,7 +543,7 @@ h1 {
     z-index: -1; }
 
 .logo {
-  max-width: 50px; }
+  max-width: 40px; }
 
 p {
   font-family: "Open Sans", sans-serif;
@@ -774,9 +774,21 @@ button.close {
   .top-bar .row {
     align-items: center; }
   .top-bar a:link {
-    text-decoration: none; }
+    text-decoration: none;
+    -webkit-text-decoration-thickness: 2px;
+    text-decoration-thickness: 2px;
+    -webkit-text-underline-offset: 3px;
+    text-underline-offset: 3px; }
   .top-bar a:hover {
-    text-decoration: underline; }
+    -webkit-animation: underline;
+    text-decoration-line: underline;
+    -webkit-text-underline-offset: 5px;
+    text-underline-offset: 5px;
+    -webkit-text-decoration-thickness: 3px;
+    text-decoration-thickness: 3px; }
+  .top-bar a.active {
+    -webkit-animation: underline;
+    text-decoration-line: underline; }
 
 /***************************
 (2.2.0) - Content

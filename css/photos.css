@@ -1,57 +1,20 @@
-/*
-Error: Undefined variable: "$breakpoint-md".
-        on line 35 of /Users/clayton_hebenik/Documents/claytonhebenik.com/photos.scss
-
-30:     position: relative;
-31:     margin: 0 auto;
-32:     display: block;
-33: }
-34: 
-35: @media screen and (max-width: $breakpoint-md * 1px) {
-36:     .photo__small {
-37:         height: auto;
-38:         margin-bottom: 0;
-39:         img {
-40:             width: 100%;
-
-Backtrace:
-/Users/clayton_hebenik/Documents/claytonhebenik.com/photos.scss:35
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/operation.rb:64:in `_perform'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:540:in `block in run_interp_no_strip'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:538:in `map'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:538:in `run_interp_no_strip'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:545:in `run_interp'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:510:in `visit_media'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:423:in `run'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$breakpoint-md\".\A         on line 35 of /Users/clayton_hebenik/Documents/claytonhebenik.com/photos.scss\A \A 30:     position: relative;\A 31:     margin: 0 auto;\A 32:     display: block;\A 33: }\A 34: \A 35: @media screen and (max-width: $breakpoint-md * 1px) {\A 36:     .photo__small {\A 37:         height: auto;\A 38:         margin-bottom: 0;\A 39:         img {\A 40:             width: 100%;"; }
+.photo-list h1 {
+  color: black;
+  font-family: Times, serif !important;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0; }
+.photo-list li {
+  list-style: disc;
+  margin: 0; }
+.photo-list .photo-button {
+  background: none;
+  border: none;
+  font-family: Times, serif;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+  padding: 0; }
+  .photo-list .photo-button:visited {
+    color: pink; }

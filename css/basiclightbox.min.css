@@ -69,10 +69,35 @@
 
 .basicLightbox__placeholder img {
     max-height: 750px;
+    padding: 8px 14px;
+}
+@media screen and (max-width: 400px) {
+    .basicLightbox__placeholder img {
+        max-height: 450px;
+    }
 }
 
 .caption {
     background: white;
     margin-top: -5px;
     padding: 14px;
+}
+
+.photos .basicLightbox {
+    background: white;
+    font-family: Times, serif;
+}
+.photos .basicLightbox::after {
+    content: 'CLOSE [X]';
+    color: blue;
+    cursor: pointer;
+    display: block;
+    text-decoration: underline;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    z-index: 999;
+}
+.photos .basicLightbox::after:hover {
+    text-decoration-line: line-through;
 }

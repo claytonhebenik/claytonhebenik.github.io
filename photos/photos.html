@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- photos css -->
+    <link href="css/photos.min.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- Photos container-->
+    <div class="container__col-sm-12">
+        <h1>35mm</h1>
+        <ul>
+            <li><a href="" class="modal-button 35mm" title="Ilford HP5 Plus, pushed 2 stops">DSC00730.jpg</a></li>
+            <li><button class="modal-button 35mm" title="DSC00714.jpg">DSC00714.jpg</button></li>
+            <li><button class="modal-button 35mm" title="Cinestille 800T pushed 1 stop">DSC00714.jpg</button></li>
+            <li><a href="/">Link</a></li>
+            <li><a href="/">Link</a></li>
+            <li><a href="/">Link</a></li>
+        </ul>
+        <div class="container__row photos">
+        </div>
+        <!-- <ul class="photos"></ul> -->
+    </div>
+    <!-- End of photos container -->
+
+    <!-- Modal Window -->
+    <div class="modal">
+
+    </div>
+    <!-- End of Modal Window -->
+
+    <link rel="stylesheet" href="/css/basiclightbox.min.css">
+    <script src="/js/min/basiclightbox.min.js"></script>
+    <script>
+        var buttonList = document.querySelectorAll('.modal-button');
+        for (var i = 0; i < buttonList.length; i++) {
+            buttonList[i].classList.add('button-' + i);
+
+            var self = buttonList[i];
+            var photo = self.title;
+            self.addEventListener('click', function (event) {
+                event.preventDefault();
+                console.log(this.title);
+                // createLightbox(this);
+                basicLightbox.create('<img src="img/' + this.innerHTML + '"><div class="caption">' + this.title + '</div>').show();
+            });
+        }
+    </script>
+</body>
+
+</html>
