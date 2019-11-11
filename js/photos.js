@@ -1,4 +1,15 @@
 var photos = [
+    'Scan10007.jpg',
+    'Scan10013.jpg',
+    'Scan10015.jpg',
+    'Scan10019.jpg',
+    'Scan10023.jpg',
+    'Scan10024.jpg',
+    'Scan10035.jpg',
+    'Scan10044.jpg',
+    'Scan10046.jpg',
+    'Scan10033.jpg',
+    'Scan10048.png',
     '0001_24A.jpg',
     '1st-ave-plant.jpeg',
     '0002_23A.jpg',
@@ -27,19 +38,11 @@ var photos = [
     'PrinceOfWales.jpeg',
     'rocks.jpeg',
     'rocks2.jpeg',
-    'Scan10007.jpg',
-    'Scan10013.jpg',
-    'Scan10015.jpg',
-    'Scan10019.jpg',
-    'Scan10019.png',
-    'Scan10033.jpg',
-    'Scan10048.png',
-    'Wateron Lake.jpeg',
+    'Wateron Lake.jpeg'
   ];
   for(var i = 0; i < photos.length; i++) {
-  $('.photos').append(
-      '<div class="container__col-sm-12 container__col-md-3 photo__small"><a href="img/photos/' + photos[i] + '" class="modal-link"><img src="img/photos/' + photos[i] + '" /></a></div>'
-  );
+    //   var content = document.createTextNode('<div class="container__col-sm-12 container__col-md-3 photo__small"><a href="img/photos/' + photos[i] + '" class="modal-link"><img src="img/photos/' + photos[i] + '" /></a></div>');
+    document.querySelector('.photos').insertAdjacentHTML('afterbegin', '<div class="container__col-sm-12 container__col-md-3 photo__small"><a href="img/photos/' + photos[i] + '" class="modal-link"><img src="img/photos/' + photos[i] + '" /></a></div>');
   // $('.photos').append(
   //     '<li><a href="img/photos/' + photos[i] + '" class="modal-link">' + photos[i] + '</a></li>'
   // );
