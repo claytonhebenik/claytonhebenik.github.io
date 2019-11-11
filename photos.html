@@ -1,32 +1,163 @@
-<!-- photos css -->
-<link href="css/photos.min.css" media="all" rel="stylesheet" type="text/css" />
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- Photos container-->
-<div class="container__col-sm-12">
-    <h1>35mm</h1>
-    <ul>
-        <li><a href="/">Link</a></li>
-        <li><a href="/">Link</a></li>
-        <li><a href="/">Link</a></li>
-        <li><a href="/">Link</a></li>
-    </ul>
-    <div class="container__row photos">
-    </div>
-    <!-- <ul class="photos"></ul> -->
-</div>
-<!-- End of photos container -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>This is not for you.</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,400i" rel="stylesheet">
+  <link href="/css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="/css/photos.css" media="all" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
 
-<!-- Modal Window -->
-<div class="modal">
+  <!-- generics -->
+  <link rel="icon" href="/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/favicon-57.png" sizes="57x57">
+  <link rel="icon" href="/favicon-76.png" sizes="76x76">
+  <link rel="icon" href="/favicon-96.png" sizes="96x96">
+  <link rel="icon" href="/favicon-128.png" sizes="128x128">
+  <link rel="icon" href="/favicon-192.png" sizes="192x192">
+  <link rel="icon" href="/favicon-228.png" sizes="228x228">
 
-</div>
-<!-- End of Modal Window -->
+  <!-- Android -->
+  <link rel="shortcut icon" sizes="196x196" href=“/favicon-196.png"> <!-- iOS -->
+  <link rel="apple-touch-icon" href="/favicon-120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="path/to/favicon-152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="path/to/favicon-180.png" sizes="180x180">
 
-<script async src="js/work-script.min.js"></script>
-<script src="js/photos.min.js"></script>
-<script>
-    $('.modal-link-close').on('click', function () {
-        displayModal();
-        $('body').toggleClass('modal-active');
-    });
-</script>
+  <!-- Windows 8 IE 10-->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/favicon-144.png">
+
+  <!— Windows 8.1 + IE11 and above —>
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+</head>
+
+<body class="photos">
+  <div class="container">
+    <!-- Header -->
+    <section class="top-bar padding-1 padding-2-sm">
+        <div class="row">
+          <div class="col-2-sm col-1-md offset-1-col-md">
+            <a href="/">
+              <img src="/img/logo.svg" alt="Clayton Hebenik - UI Designer" class="logo" />
+            </a>
+          </div>
+          <div class="col-10-sm col-9-md">
+            <nav class="padding-right-2 text-right">
+              <!-- <a href="/" class="margin-right-2">About</a> -->
+              <a href="/#work" class="margin-right-2">Work</a>
+              <a href="photos.html" class="margin-right-2 active">Photos</a>
+              <a href="/#contact">Contact</a>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+    <!-- Photo List Content -->
+    <section class="content margin-bottom-12 padding-bottom-10 padding-top-10 padding-left-2 padding-right-2 photo-list">
+      <div class="row">
+        <div class="col-4-md col-12-sm offset-1-col-md">
+          <h1>Photo Archive</h1>
+          <ul>
+              <li><button class="photo-button 35mm" title="&quot;Brenden&quot; | Cinestille 800T">DSC00714.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;7 Sisters&quot; | Fuji Superia 400">7sisters.jpeg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Cameron Falls&quot; | Fuji Superia 400">cameron-falls.jpeg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Lighthouse Park&quot; | Fuji Superia 400">lighthouse-park.jpeg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Buffalo Paddock&quot; | Fuji Superia 400">20160923-Buffalo1.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Granville Bridge&quot; | Fuji Superia 400">20170108-granville.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Keyhole&quot; | Ilford HP5 Plus 400">Scan10013.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Barf&quot; | Ilford HP5 Plus 400">Hebenik8189_34.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Luna&quot; | Ilford HP5 Plus 400">Hebenik8189_37.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Downtown Lights&quot; | Cinestille 800T">Hebenik3246_18.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Kay Market&quot; | Cinestille 800T">Scan10050.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Quebec St.&quot; | Portra 400 | Canonet G-III QL19">000019.jpg</button></li>
+              <li><button class="photo-button 35mm" title="Portra 400 | Canonet G-III QL19">000022.jpg</button></li>
+              <li><button class="photo-button 35mm" title="Portra 400 | Canonet G-III QL19">000024.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Waiting&quot; Portra 400 | Canonet G-III QL19">000033.jpg</button></li>
+              <li><button class="photo-button 35mm" title="Ferrania P30 | Canonet G-III QL19">000010.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Daisies&quot; Portra 400 | Canonet G-III QL19">000014.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Library&quot; Ferrania P30 | Canonet G-III QL19">000031.jpg</button></li>
+              <li><button class="photo-button 35mm" title="Portra 400 | Canonet G-III QL19">000045.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Full Pipe&quot; Ferrania P30 | Canonet G-III QL19">000013.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Chinatown&quot; Portra 400 | Canonet G-III QL19">000041.jpg</button></li>
+              <li><button class="photo-button 35mm" title="Kodak 200 Canonet G-III QL19">000013-2.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Art Gallery&quot; | Kodak 200 | Canonet G-III QL19">000027.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Granville&quot; | Kodak 200 | Canonet G-III QL19">000031-2.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Pacific Blue&quot; | Canonet G-III QL19">000030.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Santa Monica Pier&quot; | Canonet G-III QL19">000033-2.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;The Broad&quot; | Ektar 100 | Konica A4">000021.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;El Matador Beach&quot; | Canonet G-III QL19">000001.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;L. Ron Hubbard&quot; | Ferrania P30 | Canonet G-III QL19">000031-3.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Santa Monica&quot; | Canonet G-III QL19">000032.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Santa Monica&quot; | Canonet G-III QL19">000036.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Waves&quot; | Canonet G-III QL19">000029.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Sneakerss&quot; | Tri-X 400 | Canonet G-III QL19">000024-2.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Surfer&quot; | Canonet G-III QL19">000031-4.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Beachside&quot; | Canonet G-III QL19">000027-2.jpg</button></li>
+              <li><button class="photo-button sony" title="&quot;Peter - Front Rock&quot; | Sony a6500 - Sigma 19mm f2.8 | f/2.8 - 1/800 - ISO 1250">DSC01885.jpg</button></li>
+              <li><button class="photo-button sony" title="Sony a6500 - Sigma 19mm  f2.8| f/3.5 - 1/2000 - ISO 100">DSC02000.jpg</button></li>
+              <li><button class="photo-button sony" title="Sony a6500 E 55-210mm | f/5.6 - 1/2000 - ISO 100">DSC02025.jpg</button></li>
+              <li><button class="photo-button sony" title="Sony a6500 Zeiss 32mm f1.8 | f/8 - 1/200 - ISO 200">DSC01786.jpg</button></li>
+              <li><button class="photo-button sony" title="Sony a6500 Zeiss 32mm f1.8 | f/8 - 1/200 - ISO 400">DSC01785.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Shi Shi Beach&quot; | Ilford HP5 Plus">Scan10015.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Gastown&quot; | Cinestill 800T | Pentax MX">Hebenik3246_9.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;El Matador&quot; Canonet G-III QL19">000016.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Santa Monica&quot; Canonet G-III QL19">000033-3.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Art Gallery&quot; | Kodak Gold 200 | Canonet G-III QL19">000019-2.jpg</button></li>
+              <li><button class="photo-button 35mm" title="&quot;Breakdancers&quot; | Kodak Gold 200 | Canonet G-III QL19">000030-2.jpg</button></li>
+              <li><button class="photo-button 35mm" title="Kodak Ultramax 400 | Canonet G-III QL19">000013-3.jpg</button></li>
+              <li><button class="photo-button 35mm" title="Kodak Ultramax 400 | Canonet G-III QL19">000014-2.jpg</button></li>
+              <li><button class="photo-button 35mm" title="Portra 400 | Canonet G-III QL19">000031-5.jpg</button></li>
+              <li><button class="photo-button 35mm" title="Tri-X 400 | Canonet G-III QL19">000026.jpg</button></li>
+              <li><button class="photo-button sony" title="Sony a6500 Zeiss 32mm f1.8 | f/5.6 - 1/200 - ISO 100">DSC02142.jpg</button></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- End of Photo List Content -->
+  </div>
+
+  <div class="modal">
+
+  </div>
+  <script src="js/script.js" defer></script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-75850533-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+  <!-- Modal Window -->
+  <div class="modal">
+
+  </div>
+  <!-- End of Modal Window -->
+
+  <link rel="stylesheet" href="../css/basiclightbox.min.css">
+  <script src="/js/min/basiclightbox.min.js"></script>
+  <script>
+    var buttonList = document.querySelectorAll('.photo-button');
+    for (var i = 0; i < buttonList.length; i++) {
+      var self = buttonList[i];
+      var photo = self.title;
+      self.addEventListener('click', function (event) {
+        event.preventDefault();
+        console.log(this.title);
+        basicLightbox.create('<img src="../photos/img/' + this.innerHTML + '"><div class="caption">' + this.title + '</div>').show();
+      });
+    }
+  </script>
+</body>
+
+</html>
