@@ -145,7 +145,7 @@
       self.addEventListener('click', function (event) {
         event.preventDefault();
         console.log(this.title);
-        basicLightbox.create('<img src="../photos/img/' + this.innerHTML + '"><div class="caption">' + this.title + '</div>').show();
+        basicLightbox.create('<img src="/img/photos/' + this.innerHTML + '"><div class="caption">' + this.title + '</div>').show();
         // document.querySelector('body').classList.add('modal-active');
 
       });
