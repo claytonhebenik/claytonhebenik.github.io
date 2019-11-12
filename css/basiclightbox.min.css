@@ -74,6 +74,8 @@
 @media screen and (max-width: 400px) {
     .basicLightbox__placeholder img {
         max-height: 450px;
+        width: auto;
+        margin: 0 auto;
     }
 }
 
@@ -88,7 +90,7 @@
     font-family: Times, serif;
 }
 .photos .basicLightbox::after {
-    content: 'CLOSE [X]';
+    content: '[CLOSE]';
     color: blue;
     cursor: pointer;
     display: block;
