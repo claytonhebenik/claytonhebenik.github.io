@@ -3,7 +3,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>This is not for you.</title>
+  <title>Some pictures I taked.</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
@@ -145,9 +145,11 @@
       self.addEventListener('click', function (event) {
         event.preventDefault();
         console.log(this.title);
-        basicLightbox.create('<img src="/img/photos/' + this.innerHTML + '"><div class="caption">' + this.title + '</div>').show();
-        // document.querySelector('body').classList.add('modal-active');
-
+        const html = '<img src="/img/photos/' + this.innerHTML + '"><div class="caption">' + this.title + '</div>';
+        basicLightbox.create(html, {
+          onClose: () => document.querySelector('body').classList.remove('modal-active')
+        }).show();
+        document.querySelector('body').classList.add('modal-active');
       });
     }    
   </script>
