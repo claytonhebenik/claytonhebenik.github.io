@@ -1522,28 +1522,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/portfolio-thumb@0,5x.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 26888,
-		"inputAbbreviatedPath": "\/img\/portfolio-thumb@0,5x.jpg",
-		"outputAbbreviatedPath": "\/img\/portfolio-thumb@0,5x.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/portfolio-thumb@2x.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 58403,
-		"inputAbbreviatedPath": "\/img\/portfolio-thumb@2x.jpg",
-		"outputAbbreviatedPath": "\/img\/portfolio-thumb@2x.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/profile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2534,6 +2512,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/work\/planet-creator-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41895,
+		"inputAbbreviatedPath": "\/img\/work\/planet-creator-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/planet-creator-thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/work\/planet-creator-tracker-full.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2863,6 +2852,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/work\/astro-and-max.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/work\/best-buy\/bose.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/work\/best-buy\/bose.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

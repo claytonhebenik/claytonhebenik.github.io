@@ -526,8 +526,7 @@ h1 {
   font-style: italic;
   font-weight: 900;
   letter-spacing: 1px;
-  line-height: 4.5rem;
-  text-transform: uppercase; }
+  line-height: 4.5rem; }
 
 .lockup span.block {
   display: block;
@@ -694,6 +693,15 @@ img {
 /***************************
 (2.1) - Header
 ***************************/
+@keyframes example {
+  25% {
+    content: 'UI'; }
+  50% {
+    content: 'web'; }
+  75% {
+    content: 'digital'; }
+  100% {
+    content: 'multi-disciplinary'; } }
 header {
   background: white;
   padding: 24px 0 0;
@@ -702,6 +710,16 @@ header {
     font-weight: 300;
     line-height: 1.4em;
     margin: 6px 0; }
+  header .alternator:before {
+    overflow: hidden;
+    background-color: #22272F;
+    color: #f5f5f5;
+    content: 'multi-disciplinary';
+    padding: 0 8px;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite; }
 
 /***************************
 (2.3) - Header Buttons
@@ -1018,6 +1036,29 @@ body.fancy {
 
 .auto-width {
   width: auto; }
+
+/******MOVE THIS******/
+/******MOVE THIS******/
+/******MOVE THIS******/
+/******MOVE THIS******/
+/******MOVE THIS******/
+/******MOVE THIS******/
+/******MOVE THIS******/
+.modal-button.card {
+  background: white;
+  display: block;
+  text-decoration: none;
+  box-shadow: 0 2px 2px #00000011;
+  transition: all 0.3s ease-in-out; }
+
+.modal-button.card:hover {
+  box-shadow: 0px 3px 5px  #0000002f;
+  margin-top: -4px; }
+
+.card span {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none; }
 
 .container .margin-top-0 {
   margin-top: 0px; }

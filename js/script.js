@@ -16,6 +16,18 @@ for (i = 0; i < workTitle.length; i++) {
   });
 }
 
+// var target = document.querySelector('.alternator');
+// var text = ['multi-disciplinary', 'UI', 'digital', 'UX', 'collaborative', 'web', 'front-end', 'interactive'];
+
+// for (i = 0; i < text.length; i++) {
+//   target.innerHTML = text[i];
+  
+//   console.log(i + ' ' + text[i]);
+// }
+
+
+
+
 // workTitle[i].addEventListener('click', function() {
 //   if(workDOM.classList.contains('active')) {
 //       // console.log('it\s alive');
