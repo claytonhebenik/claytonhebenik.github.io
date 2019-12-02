@@ -509,19 +509,8 @@ h1 {
 /** Text Stroke 
     https://css-tricks.com/text-stroke-stuck-middle/ 
 **/
-@supports ((-webkit-text-stroke-color: #22272F) and (-webkit-text-fill-color: white)) or ((-moz-text-stroke-color: #22272F) and (-moz-text-fill-color: white)) {
-  .lockup {
-    -moz-text-fill-color: #ffffff3a;
-    -webkit-text-fill-color: #ffffff3a;
-    -moz-text-stroke-color: #22272F;
-    -webkit-text-stroke-color: #22272F;
-    -moz-text-stroke-width: 1px;
-    -webkit-text-stroke-width: 1px; }
-    .lockup a:hover {
-      -moz-text-fill-color: #22272F;
-      -webkit-text-fill-color: #22272F; } }
 .lockup {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 5em;
   font-style: italic;
   font-weight: 900;
@@ -542,7 +531,28 @@ h1 {
     z-index: -1; }
 
 .logo {
-  max-width: 40px; }
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  position: relative; }
+  .logo .expand {
+    display: inline-block;
+    width: 22px;
+    overflow-x: hidden;
+    transition: width 300ms ease-in-out;
+    vertical-align: bottom; }
+    .logo .expand + .expand {
+      margin-left: -4px;
+      width: 25px;
+      transition: width 300ms ease-in-out;
+      transition-delay: 500ms; }
+  .logo:hover {
+    opacity: 1; }
+  .logo:hover .expand-1 {
+    width: 125px; }
+  .logo:hover .expand-2 {
+    width: 135px;
+    transition-delay: 250ms; }
 
 p {
   font-family: "Open Sans", sans-serif;
@@ -673,6 +683,9 @@ img {
 .text-center {
   text-align: center; }
 
+.font-m {
+  font-size: 36px; }
+
 .font-l {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 48px;
@@ -710,17 +723,80 @@ header {
     font-weight: 300;
     line-height: 1.4em;
     margin: 6px 0; }
-  header .alternator:before {
-    overflow: hidden;
-    background-color: #22272F;
-    color: #f5f5f5;
-    content: 'multi-disciplinary';
-    padding: 0 8px;
-    animation-name: example;
-    animation-duration: 20s;
-    animation-delay: 5s;
-    animation-iteration-count: infinite; }
 
+.alternator {
+  overflow: hidden;
+  border-right: 2px solid rgba(34, 39, 47, 0.75);
+  border-bottom: 2px solid rgba(34, 39, 47, 0.75);
+  width: 3em;
+  text-align: center;
+  position: relative;
+  white-space: nowrap;
+  transform: translateY(10px);
+  display: inline-block; }
+
+.animation-1 {
+  animation: typewriter 3s steps(12) 1s 2 alternate both, blinkTextCursor 950ms steps(12) infinite normal; }
+
+.animation-2 {
+  animation: typewriter 3s steps(12) 5s 2 alternate both, blinkTextCursor 950ms steps(12) infinite normal; }
+
+.text_1, .text_2, .text_3 {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  transform: translateY(10px);
+  animation-duration: 10s;
+  animation-timing-function: steps(12, end);
+  animation-iteration-count: infinite;
+  width: 0; }
+
+.text_1::after, .text_2::after, .text_3::after {
+  content: " ";
+  width: 9px;
+  height: 70%;
+  background: rgba(34, 39, 47, 0.9);
+  position: absolute;
+  right: -1px;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end); }
+
+.text_1 {
+  animation-name: text1; }
+
+.text_2 {
+  animation-name: text2; }
+
+.text_3 {
+  animation-name: text3; }
+
+.text_4 {
+  animation-name: text4; }
+
+@keyframes text2 {
+  0%, 25%, 50%, 75%, 100% {
+    width: 0; }
+  60%, 90% {
+    width: 2.65em; } }
+@keyframes text2 {
+  0%, 25%, 50%, 75%, 100% {
+    width: 0; }
+  60%, 90% {
+    width: 2.65em; } }
+@keyframes text1 {
+  0%, 25%, 50%, 75%, 100% {
+    width: 0; }
+  10%, 40% {
+    width: 2.7em; } }
+@keyframes caret {
+  0%, 100% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
 /***************************
 (2.3) - Header Buttons
 ***************************/

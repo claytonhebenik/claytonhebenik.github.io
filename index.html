@@ -38,13 +38,19 @@
 <body>
   <div class="container">
     <!-- Header -->
-    <section class="top-bar padding-2">
+    <section class="top-bar padding-1 padding-2-sm">
       <div class="row">
-        <div class="col-12-sm padding-left-2 margin-right-2 text-right">
-          <!-- <a href="/" class="margin-right-2">About</a> -->
-          <a href="#work" class="margin-right-2">Work</a>
-          <!-- <a href="/photos/" class="margin-right-2">Photos</a> -->
-          <a href="#contact">Contact</a>
+        <div class="col-2-sm col-5-md offset-1-col-md">
+          <a href="/" class="logo font-m">
+            <span class="expand expand-1">Clayton</span><span class="expand expand-2">Hebenik</span>
+          </a>
+        </div>
+        <div class="col-10-sm col-5-md">
+          <nav class="padding-right-2 text-right">
+            <!-- <a href="/" class="margin-right-2">About</a> -->
+            <a href="/#work" class="margin-right-2">Work</a>
+            <a href="#contact">Contact</a>
+          </nav>
         </div>
       </div>
     </section>
@@ -52,25 +58,91 @@
       <div class="row">
         <div class="col-10-md col-12-sm offset-1-col-md">
           <!-- <h1 class="lockup margin-bottom-1"><span class="block">Clayton Hebenik</span></h1> -->
-          <h1 class="lockup margin-bottom-1">Hey, I'm Clayton.</h1>
+          <h1 class="lockup margin-bottom-1">Hey there, I'm Clayton</h1>
         </div>
       </div>
       <div class="row">
         <div class="col-5-md col-12-sm offset-1-col-md padding-left-1">
-          <!-- <h2>...I'm a <span class="alternator"></span> designer passionate about crafting meaningful experiences, based in Vancouver!</h2> -->
-          <h2>I'm digital designer passionate about crafting meaningful experiences, based in Vancouver!</h2>
+            <p>
+                <span class="typewriter">
+                  <b class="typewriter-inner digital">digital</b>
+                  <b class="typewriter-inner ui">UI/UX</b>
+                  <b class="typewriter-inner web">web</b>
+                  <b class="typewriter-inner front-end">front-end</b>
+                  <b class="typewriter-inner creative">creative</b>
+                </span> designer
+              </p>
+              <!-- <style>
+                .typewriter {
+                  
+                }
+                .typewriter::after {
+                  content: "|";
+                  /* width: 9px; */
+                  /* height: 70%; */
+                  /* background: black; */
+                  /* position: absolute; */
+                  /* right: -1px; */
+                  /* top: 50%; */
+                  /* transform: translateY(-50%); */
+                  animation: caret infinite;
+                  animation-duration: 1s;
+                  animation-timing-function: steps(1, end);
+                }
+                .typewriter-inner {
+                  overflow: hidden;
+                  position: relative;
+                  white-space: nowrap;
+                  display: inline-block;
+                }
+                .typewriter-inner.digital {
+                  animation-name: typewriter1;
+                  animation-duration: 2s;
+                  animation-timing-function: steps(14, end);
+                  animation-direction: alternate;
+                  animation-iteration-count: 1;
+                  width: 3.2em;
+                }
+                .typewriter-inner.ui {
+                  animation-name: typewriter2;
+                  animation-duration: 2s;
+                  animation-timing-function: steps(5, end);
+                  /* animation-direction: alternate; */
+                  animation-delay: 6s;
+                  width: 3em;
+                }
+                @keyframes typewriter1 {
+                  from {
+                    width: 0;
+                  }
+                  to {
+                    width: 3.2em;
+                  }
+                }
+                @keyframes typewriter2 {
+                  from {
+                    width: 0;
+                  }
+                  to {
+                    width: 3em;
+                  }
+                }
+              </style> -->
+          <!-- <h2>...I'm a <span class="typewriter">digital</span> designer passionate about crafting meaningful experiences, based in Vancouver!</h2> -->
+          <!-- <h2>...I'm a <span class="alternator animation-1">digital</span> designer passionate about crafting meaningful experiences, based in Vancouver!</h2> -->
+          <!-- <h2>...I'm a <span class="text_1">digital</span><span class="text_2">visual</span><span class="text_3">UI</span> designer passionate about crafting meaningful experiences, based in Vancouver!</h2> -->
         </div>
       </div>
     </header>
     <!-- End of Header -->
 
     <!-- Portfolio Content -->
-    <!-- <section class="content padding-bottom-6 padding-top-5 padding-left-2 padding-right-2 background-dark" id="work">
+    <section class="content padding-bottom-6 padding-top-5 padding-left-2 padding-right-2 background-offwhite" id="work">
       <div class="row">
         <div class="col-10-md col-12-sm offset-1-col-md">
           <h2 class="margin-bottom-2">Featured Projects</h2>
           <div class="row">
-              <div class="col-3-md col-6-sm">
+              <div class="col-4-md col-6-sm padding-0">
                   <a class="modal-button card" href="/work/best-buy/sony-a6400.html">
                     <img srcset="img/work/bby-sony-a6400-thumb.jpg 150w,
                       img/work/bby-sony-a6400-thumb.jpg 480w" sizes="(max-width: 320px) 150px,
@@ -78,13 +150,13 @@
                               <span>Sony a6400 product launch</span>
                   </a>
               </div>
-              <div class="col-3-md col-6-sm">
+              <div class="col-4-md col-6-sm padding-0">
                   <a href="/work/hard-times/redesign.html" class="modal-button card">
                     <img src="img/work/hard-times-logo.jpg" alt="The Hard Times">
                     <span>TheHardTimes.net (redesign)</span>
                   </a>
               </div>
-              <div class="col-3-md col-6-sm">
+              <div class="col-4-md col-6-sm padding-0">
                   <a class="modal-button card" href="/work/planet-creator.html">
                     <img srcset="/img/work/planet-creator-thumb.jpg 150w,
                     /img/work/planet-creator-thumb.jpg 480w" sizes="(max-width: 320px) 150px,
@@ -92,7 +164,7 @@
                               <span>Planet Creator VR</span>
                   </a>
               </div>
-              <div class="col-3-md col-6-sm">
+              <div class="col-4-md col-6-sm padding-0">
                   <a class="modal-button card" href="/work/best-buy/sony-a6400.html">
                     <img srcset="img/work/bby-sony-a6400-thumb.jpg 150w,
                       img/work/bby-sony-a6400-thumb.jpg 480w" sizes="(max-width: 320px) 150px,
@@ -104,7 +176,7 @@
         </div>
       </div>
       
-    </section> -->
+    </section>
     <section class="content margin-bottom-12 padding-bottom-10 padding-top-10 padding-left-2 padding-right-2 background-offwhite" id="work">
       <div class="row">
         <div class="col-10-md col-12-sm offset-1-col-md">

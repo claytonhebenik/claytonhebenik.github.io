@@ -16,10 +16,11 @@ for (i = 0; i < workTitle.length; i++) {
   });
 }
 
-// var target = document.querySelector('.alternator');
+// var target = document.getElementsByClassName('.typewriter');
 // var text = ['multi-disciplinary', 'UI', 'digital', 'UX', 'collaborative', 'web', 'front-end', 'interactive'];
 
 // for (i = 0; i < text.length; i++) {
+//   target.style
 //   target.innerHTML = text[i];
   
 //   console.log(i + ' ' + text[i]);
