@@ -576,24 +576,24 @@ button {
   button:focus {
     outline: none; }
 
-.modal-button {
+.modal-button, .portfolio-item {
   background: none;
   border: none;
   margin: 0;
   padding: 0;
   position: relative; }
-  .modal-button:hover img {
+  .modal-button:hover img, .portfolio-item:hover img {
     opacity: 0.5; }
-  .modal-button .svg {
+  .modal-button .svg, .portfolio-item .svg {
     display: none;
     position: absolute;
     top: 0;
     right: 0;
     width: 50%;
     z-index: 1; }
-    .modal-button .svg svg {
+    .modal-button .svg svg, .portfolio-item .svg svg {
       width: 100%; }
-  .modal-button:hover .svg {
+  .modal-button:hover .svg, .portfolio-item:hover .svg {
     opacity: 1;
     cursor: pointer;
     display: block; }
@@ -644,9 +644,18 @@ img {
 .background-offwhite {
   background-color: #f5f5f5; }
 
+.background-lightgrey {
+  background-color: #e6e6e6; }
+
 .background-dark {
   background-color: #22272F;
   color: #f5f5f5; }
+
+.background-blue {
+  background-color: #299b9a; }
+
+.background-orange {
+  background-color: #f46e1d; }
 
 .background-hardtimes {
   background-color: #3eb565; }
@@ -676,6 +685,9 @@ img {
 
 .background-bby-yellow {
   background-color: #fece00; }
+
+.background-suncoast {
+  background-color: #eff0ea; }
 
 .text-right {
   text-align: right; }
@@ -1120,21 +1132,66 @@ body.fancy {
 /******MOVE THIS******/
 /******MOVE THIS******/
 /******MOVE THIS******/
-.modal-button.card {
-  background: white;
+.portfolio-item.card {
   display: block;
+  position: relative;
   text-decoration: none;
-  box-shadow: 0 2px 2px #00000011;
   transition: all 0.3s ease-in-out; }
+  .portfolio-item.card > img {
+    display: block; }
+  .portfolio-item.card > .portfolio-overlay {
+    background: rgba(1, 177, 148, 0.85);
+    color: #f5f5f5;
+    font-family: "Roboto Condensed", sans-serif;
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    transform: translateX(-100%);
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out; }
+    .portfolio-item.card > .portfolio-overlay > .overlay-info {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%; }
+    .portfolio-item.card > .portfolio-overlay .overlay-text {
+      display: block;
+      position: relative;
+      right: -200%;
+      transition: all 0.3s ease-in-out;
+      transition-delay: 0.15s;
+      width: 100%; }
+    .portfolio-item.card > .portfolio-overlay .overlay-cta {
+      color: #22272F;
+      padding: 8px 0;
+      cursor: pointer;
+      position: relative;
+      margin: 0 auto;
+      transition: all 0.3s ease-in-out;
+      transition-delay: 0.2s;
+      left: -100%; }
+      .portfolio-item.card > .portfolio-overlay .overlay-cta:after {
+        content: '';
+        background: #f5f5f5;
+        height: 100%;
+        width: 124%;
+        position: absolute;
+        bottom: 0;
+        left: -12%;
+        transform: skewX(-25deg);
+        z-index: -1;
+        transition: all 0.15s ease-in-out; }
+      .portfolio-item.card > .portfolio-overlay .overlay-cta:hover:after {
+        width: 100px; }
 
-.modal-button.card:hover {
-  box-shadow: 0px 3px 5px  #0000002f;
-  margin-top: -4px; }
-
-.card span {
-  display: block;
-  padding: 8px 16px;
-  text-decoration: none; }
+.portfolio-item.card:hover .portfolio-overlay {
+  transform: translateX(0px); }
+  .portfolio-item.card:hover .portfolio-overlay .overlay-text {
+    right: 0; }
+  .portfolio-item.card:hover .portfolio-overlay .overlay-cta {
+    left: 0; }
 
 .container .margin-top-0 {
   margin-top: 0px; }
