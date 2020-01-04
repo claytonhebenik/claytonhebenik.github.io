@@ -557,7 +557,7 @@ h1 {
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
-  line-height: 1.8em; }
+  line-height: 1.6em; }
 
 ul li, ol li {
   font-size: 18px;
@@ -569,7 +569,10 @@ ul > li {
 
 ol > li {
   list-style: decimal-leading-zero;
-  list-style-type: decimal-leading-zero; }
+  list-style-type: decimal-leading-zero;
+  margin-bottom: 24px; }
+  ol > li:last-child {
+    margin-bottom: 0; }
 
 button {
   cursor: pointer; }
