@@ -2204,6 +2204,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/work\/hard-times-article.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100032,
+		"inputAbbreviatedPath": "\/img\/work\/hard-times-article.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/hard-times-article.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/work\/hard-times-audit.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2255,6 +2266,17 @@
 		"initialSize": 707205,
 		"inputAbbreviatedPath": "\/img\/work\/hard-times-desktop-post-wireframe.jpg",
 		"outputAbbreviatedPath": "\/img\/work\/hard-times-desktop-post-wireframe.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/hard-times-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105613,
+		"inputAbbreviatedPath": "\/img\/work\/hard-times-home.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/hard-times-home.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2332,6 +2354,17 @@
 		"initialSize": 222419,
 		"inputAbbreviatedPath": "\/img\/work\/hard-times-mobile-post-wireframe.png",
 		"outputAbbreviatedPath": "\/img\/work\/hard-times-mobile-post-wireframe.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/hard-times-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166378,
+		"inputAbbreviatedPath": "\/img\/work\/hard-times-old.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/hard-times-old.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
