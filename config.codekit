@@ -75,24 +75,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/astro-and-max.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/astro-and-max.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/contact.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -477,24 +459,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/clayton-hebenik.jpg": {
+	"\/img\/clayton-hebenik-400w.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 265810,
-		"inputAbbreviatedPath": "\/img\/clayton-hebenik.jpg",
-		"outputAbbreviatedPath": "\/img\/clayton-hebenik.jpg",
+		"initialSize": 17108,
+		"inputAbbreviatedPath": "\/img\/clayton-hebenik-400w.jpg",
+		"outputAbbreviatedPath": "\/img\/clayton-hebenik-400w.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/clayton-hebenik.png": {
-		"fileType": 32768,
+	"\/img\/clayton-hebenik-800w.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 27597,
-		"inputAbbreviatedPath": "\/img\/clayton-hebenik.png",
-		"outputAbbreviatedPath": "\/img\/clayton-hebenik.png",
+		"initialSize": 48697,
+		"inputAbbreviatedPath": "\/img\/clayton-hebenik-800w.jpg",
+		"outputAbbreviatedPath": "\/img\/clayton-hebenik-800w.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/clayton-hebenik-skate-md.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12834,
+		"inputAbbreviatedPath": "\/img\/clayton-hebenik-skate-md.jpg",
+		"outputAbbreviatedPath": "\/img\/clayton-hebenik-skate-md.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/clayton-hebenik-skate-sm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20118,
+		"inputAbbreviatedPath": "\/img\/clayton-hebenik-skate-sm.jpg",
+		"outputAbbreviatedPath": "\/img\/clayton-hebenik-skate-sm.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2929,15 +2933,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/planet-creator.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/planet-creator.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/style.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2953,42 +2948,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/suncoast-louvered-roofs.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/suncoast-louvered-roofs.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/test.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/test.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/the-hard-times.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/the-hard-times.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/work.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/work.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/work\/astro-and-max.html": {
 		"fileType": 8192,

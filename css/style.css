@@ -40,7 +40,7 @@
   margin-right: -8px;
   margin-left: -8px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .col-md-center {
     margin-left: auto;
     margin-right: auto; } }
@@ -152,7 +152,7 @@
 .offset-12-col-sm {
   margin-left: 100%; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .col-1-md {
     flex-basis: 8.3333333333%;
     padding: 0 8px;
@@ -509,13 +509,9 @@ h1 {
 /** Text Stroke 
     https://css-tricks.com/text-stroke-stuck-middle/ 
 **/
-.lockup {
+.lockup, .stylized {
   font-family: "Roboto", sans-serif;
-  font-size: 5em;
-  font-style: italic;
-  font-weight: 900;
-  letter-spacing: 1px;
-  line-height: 4.5rem; }
+  font-style: italic; }
 
 .lockup span.block {
   display: block;
@@ -671,7 +667,7 @@ img {
   background-image: url("/img/work/planet-creator-hero-bg.jpg");
   background-position: 65% top;
   background-repeat: no-repeat; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     .background-planetcreator {
       background-size: auto 100%; } }
 
@@ -679,7 +675,7 @@ img {
   background-color: black;
   background-position: 65% top;
   background-repeat: no-repeat; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     .background-astro-max {
       background-size: auto 100%; } }
 
@@ -703,10 +699,20 @@ img {
 
 .font-l {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 48px;
+  font-size: 2.5rem;
   font-weight: 400; }
 
-@media screen and (max-width: 768px) {
+.font-xl {
+  font-size: 3.5rem;
+  line-height: 3.5rem; }
+
+.font-xxl {
+  font-size: 4.5em;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 4.5rem; }
+
+@media screen and (max-width: 767px) {
   .font-l {
     line-height: 1.1em; } }
 .align-center {
@@ -738,6 +744,8 @@ header {
     font-weight: 300;
     line-height: 1.4em;
     margin: 6px 0; }
+  header img {
+    display: block; }
 
 .alternator {
   overflow: hidden;
@@ -860,17 +868,17 @@ button.close {
     margin-top: -2px;
     transform: rotate(-45deg); }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .hide {
     display: none; } }
-@media screen and (max-width: 768px) {
-  .lockup {
-    font-size: 3.6rem;
+@media screen and (max-width: 767px) {
+  .font-xxl {
+    font-size: 3.4rem;
     line-height: 3.3rem; }
 
-  .portfolio-detail header .lockup {
-    font-size: 2rem;
-    line-height: 2.1rem; }
+  .font-xl {
+    font-size: 1.8rem;
+    line-height: 1.4rem; }
 
   h2 {
     font-size: 1.3rem; } }
@@ -922,7 +930,7 @@ button.close {
   padding: 0;
   text-align: left;
   width: 100%; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     .portfolio-item .portfolio-title {
       margin-bottom: 16px; } }
   .portfolio-item .portfolio-title:hover {
@@ -967,7 +975,7 @@ button.close {
 .portfolio .container__row {
   margin-bottom: 30px; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .portfolio__item {
     margin: 5px; }
     .portfolio__item:hover {
@@ -977,14 +985,14 @@ button.close {
 ******************************************************/
 .overview img {
   vertical-align: bottom; }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .overview img {
     width: 65%; } }
 
 .screenshot {
   max-height: 500px;
   overflow-y: scroll; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     .screenshot {
       max-height: 300px; } }
 
@@ -1086,7 +1094,7 @@ button.close {
     width: 100%;
     height: 100%; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .modal #container__left {
     order: 1; }
   .modal #container__right {
@@ -1278,7 +1286,7 @@ body.fancy {
 .container .margin-top-negative-12 {
   margin-top: -96px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .container .margin-top-0-md {
     margin-top: 0px; }
 
@@ -1434,7 +1442,7 @@ body.fancy {
 .container .margin-top-negative-12 {
   margin-top: -96px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .container .padding-top-0-md {
     padding-top: 0px; }
 
@@ -1590,7 +1598,7 @@ body.fancy {
 .container .margin-left-negative-12 {
   margin-left: -96px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .container .margin-left-0-md {
     margin-left: 0px; }
 
@@ -1746,7 +1754,7 @@ body.fancy {
 .container .margin-left-negative-12 {
   margin-left: -96px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .container .padding-left-0-md {
     padding-left: 0px; }
 
@@ -1902,7 +1910,7 @@ body.fancy {
 .container .margin-bottom-negative-12 {
   margin-bottom: -96px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .container .margin-bottom-0-md {
     margin-bottom: 0px; }
 
@@ -2058,7 +2066,7 @@ body.fancy {
 .container .margin-bottom-negative-12 {
   margin-bottom: -96px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .container .padding-bottom-0-md {
     padding-bottom: 0px; }
 
@@ -2214,7 +2222,7 @@ body.fancy {
 .container .margin-right-negative-12 {
   margin-right: -96px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .container .margin-right-0-md {
     margin-right: 0px; }
 
@@ -2370,7 +2378,7 @@ body.fancy {
 .container .margin-right-negative-12 {
   margin-right: -96px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .container .padding-right-0-md {
     padding-right: 0px; }
 
@@ -2526,7 +2534,7 @@ body.fancy {
 .container .padding-12 {
   padding: 96px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .container .margin-0-sm {
     margin: 0px; }
 
