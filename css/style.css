@@ -528,6 +528,7 @@ h1 {
 
 .logo {
   font-family: "Roboto", sans-serif;
+  font-size: 36px;
   font-weight: 900;
   font-style: italic;
   position: relative; }
@@ -556,8 +557,9 @@ p {
   line-height: 1.6em; }
 
 ul li, ol li {
-  font-size: 18px;
-  margin: 8px 0; }
+  font-size: 16px;
+  line-height: 1.7em;
+  margin: 0 0 16px; }
 
 ul > li {
   list-style: circle;
@@ -618,8 +620,8 @@ img {
   transition: all 0.4s ease-in-out;
   text-decoration: none; }
   .primary-cta:after {
+    background-color: white;
     content: '';
-    border: 1px solid #22272F;
     height: 100%;
     width: 124%;
     position: absolute;
@@ -694,8 +696,12 @@ img {
 .text-center {
   text-align: center; }
 
+.font-xs {
+  font-size: 1rem;
+  line-height: 1.2rem; }
+
 .font-m {
-  font-size: 36px; }
+  font-size: 32px; }
 
 .font-l {
   font-family: "Roboto Condensed", sans-serif;
@@ -873,7 +879,7 @@ button.close {
     display: none; } }
 @media screen and (max-width: 767px) {
   .font-xxl {
-    font-size: 3.4rem;
+    font-size: 3rem;
     line-height: 3.3rem; }
 
   .font-xl {
@@ -986,7 +992,7 @@ button.close {
 .overview img {
   vertical-align: bottom; }
 @media screen and (min-width: 767px) {
-  .overview img {
+  .overview .hero-image {
     width: 65%; } }
 
 .screenshot {
