@@ -506,6 +506,22 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 24px; }
 
+.border-bottom {
+  border-bottom-color: rgba(34, 39, 47, 0.2);
+  border-bottom-style: solid;
+  border-bottom-width: 1px; }
+
+@media screen and (min-width: 992px) {
+  .border-right {
+    border-right-color: #f5f5f5;
+    border-right-style: solid;
+    border-right-width: 1px; } }
+.shadow {
+  -o-box-shadow: 0 3px 6px rgba(34, 39, 47, 0.4);
+  -moz-box-shadow: 0 3px 6px rgba(34, 39, 47, 0.4);
+  -webkit-box-shadow: 0 3px 6px rgba(34, 39, 47, 0.4);
+  box-shadow: 0 3px 6px rgba(34, 39, 47, 0.4); }
+
 /** Text Stroke 
     https://css-tricks.com/text-stroke-stuck-middle/ 
 **/
@@ -651,6 +667,8 @@ img {
 .background-dark {
   background-color: #22272F;
   color: #f5f5f5; }
+  .background-dark > a {
+    color: #f5f5f5; }
 
 .background-blue {
   background-color: #299b9a; }
@@ -680,6 +698,9 @@ img {
   @media screen and (max-width: 767px) {
     .background-astro-max {
       background-size: auto 100%; } }
+
+.background-highlight {
+  background-color: #01b194; }
 
 .background-bby-blue {
   background-color: #0046be; }
@@ -994,6 +1015,11 @@ button.close {
 @media screen and (min-width: 767px) {
   .overview .hero-image {
     width: 65%; } }
+.overview a:hover {
+  background-color: rgba(1, 177, 148, 0.85);
+  color: white;
+  padding: 0 16px;
+  text-decoration: none; }
 
 .screenshot {
   max-height: 500px;
