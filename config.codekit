@@ -75,12 +75,12 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/contact.html": {
+	"\/credits.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contact.html",
-		"outputAbbreviatedPath": "\/img\/photos\/canoe.jpeg",
+		"inputAbbreviatedPath": "\/credits.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -763,6 +763,72 @@
 		"initialSize": 192083,
 		"inputAbbreviatedPath": "\/img\/icg-logo.png",
 		"outputAbbreviatedPath": "\/img\/icg-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-card-brainstorming.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4160,
+		"inputAbbreviatedPath": "\/img\/icon-card-brainstorming.jpg",
+		"outputAbbreviatedPath": "\/img\/icon-card-brainstorming.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-card-production.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4059,
+		"inputAbbreviatedPath": "\/img\/icon-card-production.jpg",
+		"outputAbbreviatedPath": "\/img\/icon-card-production.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-card-prototyping.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4667,
+		"inputAbbreviatedPath": "\/img\/icon-card-prototyping.jpg",
+		"outputAbbreviatedPath": "\/img\/icon-card-prototyping.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-card-research.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4891,
+		"inputAbbreviatedPath": "\/img\/icon-card-research.jpg",
+		"outputAbbreviatedPath": "\/img\/icon-card-research.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-card-story-boards.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5066,
+		"inputAbbreviatedPath": "\/img\/icon-card-story-boards.jpg",
+		"outputAbbreviatedPath": "\/img\/icon-card-story-boards.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-card-user-flow.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4191,
+		"inputAbbreviatedPath": "\/img\/icon-card-user-flow.jpg",
+		"outputAbbreviatedPath": "\/img\/icon-card-user-flow.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2168,7 +2234,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 209380,
+		"initialSize": 189461,
 		"inputAbbreviatedPath": "\/img\/work\/card-planet-creator.png",
 		"outputAbbreviatedPath": "\/img\/work\/card-planet-creator.png",
 		"outputPathIsOutsideProject": 0,
@@ -2681,6 +2747,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/work\/pc-colours.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2377,
+		"inputAbbreviatedPath": "\/img\/work\/pc-colours.png",
+		"outputAbbreviatedPath": "\/img\/work\/pc-colours.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/pc-fonts.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7657,
+		"inputAbbreviatedPath": "\/img\/work\/pc-fonts.png",
+		"outputAbbreviatedPath": "\/img\/work\/pc-fonts.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/work\/planet-creator-asteroid-full.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2718,7 +2806,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 24486,
+		"initialSize": 15783,
 		"inputAbbreviatedPath": "\/img\/work\/planet-creator-collection.jpg",
 		"outputAbbreviatedPath": "\/img\/work\/planet-creator-collection.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2740,7 +2828,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 19496,
+		"initialSize": 10453,
 		"inputAbbreviatedPath": "\/img\/work\/planet-creator-controller.jpg",
 		"outputAbbreviatedPath": "\/img\/work\/planet-creator-controller.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2754,6 +2842,17 @@
 		"initialSize": 27877,
 		"inputAbbreviatedPath": "\/img\/work\/planet-creator-flow.jpg",
 		"outputAbbreviatedPath": "\/img\/work\/planet-creator-flow.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/planet-creator-gaze.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6565,
+		"inputAbbreviatedPath": "\/img\/work\/planet-creator-gaze.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/planet-creator-gaze.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2835,6 +2934,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/work\/planet-creator-info-locked-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51906,
+		"inputAbbreviatedPath": "\/img\/work\/planet-creator-info-locked-full.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/planet-creator-info-locked-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/planet-creator-info-locked.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10960,
+		"inputAbbreviatedPath": "\/img\/work\/planet-creator-info-locked.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/planet-creator-info-locked.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/planet-creator-info-unlocked.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15859,
+		"inputAbbreviatedPath": "\/img\/work\/planet-creator-info-unlocked.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/planet-creator-info-unlocked.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/work\/planet-creator-info.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2861,9 +2993,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 26320,
+		"initialSize": 18344,
 		"inputAbbreviatedPath": "\/img\/work\/planet-creator-screens.jpg",
 		"outputAbbreviatedPath": "\/img\/work\/planet-creator-screens.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/planet-creator-storyboard-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156555,
+		"inputAbbreviatedPath": "\/img\/work\/planet-creator-storyboard-full.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/planet-creator-storyboard-full.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2875,6 +3018,17 @@
 		"initialSize": 84776,
 		"inputAbbreviatedPath": "\/img\/work\/planet-creator-storyboard.jpg",
 		"outputAbbreviatedPath": "\/img\/work\/planet-creator-storyboard.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/planet-creator-teleport.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6065,
+		"inputAbbreviatedPath": "\/img\/work\/planet-creator-teleport.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/planet-creator-teleport.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2905,7 +3059,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 854491,
+		"initialSize": 884172,
 		"inputAbbreviatedPath": "\/img\/work\/planet-creator-tracker-full.png",
 		"outputAbbreviatedPath": "\/img\/work\/planet-creator-tracker-full.png",
 		"outputPathIsOutsideProject": 0,
@@ -2916,7 +3070,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 21963,
+		"initialSize": 16486,
 		"inputAbbreviatedPath": "\/img\/work\/planet-creator-tracker.jpg",
 		"outputAbbreviatedPath": "\/img\/work\/planet-creator-tracker.jpg",
 		"outputPathIsOutsideProject": 0,

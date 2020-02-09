@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Clayton Hebenik - Digital Design</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,400i" rel="stylesheet">
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+
+  <!-- generics -->
+  <link rel="icon" href="/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/favicon-57.png" sizes="57x57">
+  <link rel="icon" href="/favicon-76.png" sizes="76x76">
+  <link rel="icon" href="/favicon-96.png" sizes="96x96">
+  <link rel="icon" href="/favicon-128.png" sizes="128x128">
+  <link rel="icon" href="/favicon-192.png" sizes="192x192">
+  <link rel="icon" href="/favicon-228.png" sizes="228x228">
+
+  <!-- Android -->
+  <link rel="shortcut icon" sizes="196x196" href=“/favicon-196.png"> <!-- iOS -->
+  <link rel="apple-touch-icon" href="/favicon-120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="path/to/favicon-152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="path/to/favicon-180.png" sizes="180x180">
+
+  <!-- Windows 8 IE 10-->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/favicon-144.png">
+
+  <!— Windows 8.1 + IE11 and above —>
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <nav class="top-bar padding-1 padding-2-sm">
+      <div class="row">
+        <div class="col-3-sm col-5-md offset-1-col-lg">
+          <a href="/" class="logo">
+            <span class="expand expand-1">Clayton</span><span class="expand expand-2">Hebenik</span>
+          </a>
+        </div>
+        <div class="col-9-sm col-7-md col-5-lg">
+          <div class="padding-right-2 text-right">
+            <a href="/#work" class="margin-right-2">Work</a>
+            <a href="/about.html" class="margin-right-2">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Header -->
+
+    <!-- Bio Content -->
+    <section class="content padding-bottom-6 padding-top-6 padding-left-3 padding-right-3 background-white" id="work">
+      <div class="row">
+        <div class="col-5-lg col-9-md col-12-sm offset-1-col-md offset-2-col-lg">
+            <h1 class="font-l">Credits</h1>
+            <p>The following resources helped me in building this site for which I am super grateful :)</p>
+            <ul>
+                <li><a href="https://github.com/electerious/basicLightbox">Basic Light Box, by electerious</a> used on <a href="/work/planet-creator.html">Planet Creator</a> and <a href="/photos">Photos</a></li>
+                <li><a href="https://thenounproject.com/Antonio1987/collection/prototyping-and-designing/">Sketch Icon</a> on <a href="/work/planet-creator.html">Planet Creator</a>: Created by Anton Barbarov from the Noun Project</li>
+                <li><a href="https://www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/">Making Embedded Content Work In A Responsive iFrame</a></li>
+            </ul>
+            <p class="italic"><strong><a href="javascript:history.back()">Return to last page</a></strong></p>
+          </div>
+      </div>
+    </section>
+
+    <!-- End of Bio Content -->
+    <!-- Header -->
+    <!-- <footer class="margin-bottom-4 padding-left-2 padding-right-2" id="contact">
+      <div class="row">
+        <div class="col-3-md offset-1-col-md">
+          <h3 class="font-m margin-0">Want to collaborate?</h3>
+          <p class="margin-0">Send me a message!</p>
+        </div>
+        <div class="col-8-md lockup">
+          <a href="hello@claytonhebenik.com" class="margin-bottom-1"><span class="block">hello@claytonhebenik.com</span></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4-md col-12-sm offset-1-col-md margin-bottom-4 lockup">
+          
+        </div>
+        
+      </div>
+    </footer> -->
+    <!-- End of Header -->
+  </div>
+
+  <div class="modal">
+
+  </div>
+  <script src="js/script.js" defer></script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-75850533-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+  <!-- <script async src="js/work-script.min.js"></script> -->
+  <!-- <script>
+    $('.modal-link-close').on('click', function () {
+      $('body').toggleClass('modal-active');
+    });
+  </script> -->
+
+  <link rel="stylesheet" href="css/basiclightbox.min.css">
+  <script src="js/min/basiclightbox.min.js"></script>
+
+  <script>
+    document.querySelector('button.pcVideo').onclick = () => {
+      basicLightbox.create(`
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Yv4PdO26csA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      `).show()
+    }
+    document.querySelector('button.suncoast').onclick = () => {
+      basicLightbox.create(`
+      <img src="img/suncoast-louvered-roofs.jpg" alt="" />
+      `).show()
+    }
+  </script>
+</body>
+
+</html>

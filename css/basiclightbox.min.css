@@ -26,7 +26,8 @@
     transition: transform .4s ease;
     transition: transform .4s ease, -webkit-transform .4s ease;
     z-index: 1;
-    will-change: transform
+    will-change: transform;
+    background: white;
 }
 
 .basicLightbox__placeholder>iframe:first-child:last-child,
