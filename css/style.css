@@ -517,10 +517,16 @@ h1 {
     border-right-style: solid;
     border-right-width: 1px; } }
 .shadow, .portfolio-item.card:hover {
-  -o-box-shadow: 0 3px 6px rgba(34, 39, 47, 0.4);
-  -moz-box-shadow: 0 3px 6px rgba(34, 39, 47, 0.4);
-  -webkit-box-shadow: 0 3px 6px rgba(34, 39, 47, 0.4);
-  box-shadow: 0 3px 6px rgba(34, 39, 47, 0.4); }
+  -o-box-shadow: 0 3px 6px rgba(34, 39, 47, 0.2);
+  -moz-box-shadow: 0 3px 6px rgba(34, 39, 47, 0.2);
+  -webkit-box-shadow: 0 3px 6px rgba(34, 39, 47, 0.2);
+  box-shadow: 0 3px 6px rgba(34, 39, 47, 0.2); }
+  .shadow:hover, .portfolio-item.card:hover {
+    -o-box-shadow: 0 3px 6px rgba(34, 39, 47, 0.4);
+    -moz-box-shadow: 0 3px 6px rgba(34, 39, 47, 0.4);
+    -webkit-box-shadow: 0 3px 6px rgba(34, 39, 47, 0.4);
+    box-shadow: 0 3px 6px rgba(34, 39, 47, 0.4);
+    transition: all 0.3s ease-in-out; }
 
 /** Text Stroke 
     https://css-tricks.com/text-stroke-stuck-middle/ 
@@ -570,7 +576,7 @@ h1 {
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
-  line-height: 1.8em; }
+  line-height: 1.72em; }
 
 ul li, ol li {
   font-size: 16px;
@@ -600,7 +606,8 @@ button {
   padding: 0;
   position: relative; }
   .modal-button:hover img, .portfolio-item:hover img {
-    opacity: 0.5; }
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out; }
   .modal-button .svg, .portfolio-item .svg {
     display: none;
     position: absolute;

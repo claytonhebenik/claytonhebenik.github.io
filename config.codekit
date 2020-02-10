@@ -778,6 +778,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icon-card-iterating.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3994,
+		"inputAbbreviatedPath": "\/img\/icon-card-iterating.jpg",
+		"outputAbbreviatedPath": "\/img\/icon-card-iterating.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icon-card-production.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -829,6 +840,17 @@
 		"initialSize": 4191,
 		"inputAbbreviatedPath": "\/img\/icon-card-user-flow.jpg",
 		"outputAbbreviatedPath": "\/img\/icon-card-user-flow.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-card-wireframes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3573,
+		"inputAbbreviatedPath": "\/img\/icon-card-wireframes.jpg",
+		"outputAbbreviatedPath": "\/img\/icon-card-wireframes.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
