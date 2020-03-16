@@ -701,9 +701,11 @@ img {
       background-size: auto 100%; } }
 
 .background-astro-max {
-  background-color: black;
+  background-color: #22272F;
+  background-image: url("/img/work/astro-max-bg.jpg");
   background-position: 65% top;
-  background-repeat: no-repeat; }
+  background-repeat: repeat-y;
+  color: #f5f5f5; }
   @media screen and (max-width: 767px) {
     .background-astro-max {
       background-size: auto 100%; } }

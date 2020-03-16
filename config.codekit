@@ -767,6 +767,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icon-card-art-production.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2789,
+		"inputAbbreviatedPath": "\/img\/icon-card-art-production.jpg",
+		"outputAbbreviatedPath": "\/img\/icon-card-art-production.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icon-card-brainstorming.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -774,6 +785,17 @@
 		"initialSize": 4160,
 		"inputAbbreviatedPath": "\/img\/icon-card-brainstorming.jpg",
 		"outputAbbreviatedPath": "\/img\/icon-card-brainstorming.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-card-flow.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3211,
+		"inputAbbreviatedPath": "\/img\/icon-card-flow.jpg",
+		"outputAbbreviatedPath": "\/img\/icon-card-flow.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -851,6 +873,17 @@
 		"initialSize": 3573,
 		"inputAbbreviatedPath": "\/img\/icon-card-wireframes.jpg",
 		"outputAbbreviatedPath": "\/img\/icon-card-wireframes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-card-writing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3734,
+		"inputAbbreviatedPath": "\/img\/icon-card-writing.jpg",
+		"outputAbbreviatedPath": "\/img\/icon-card-writing.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1867,6 +1900,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/work\/astro-max-characters.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8543,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-characters.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-characters.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/work\/astro-max-dressup1-full.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1911,6 +1955,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/work\/astro-max-hero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 280323,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-hero.png",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-hero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/work\/astro-max-hide-seek-full.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1929,6 +1984,116 @@
 		"initialSize": 27406,
 		"inputAbbreviatedPath": "\/img\/work\/astro-max-hide-seek.jpg",
 		"outputAbbreviatedPath": "\/img\/work\/astro-max-hide-seek.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10805,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-home.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-ice-cream-galaxy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58464,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-ice-cream-galaxy.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-ice-cream-galaxy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-in-game.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12040,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-in-game.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-in-game.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-logo-styles.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74704,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-logo-styles.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-logo-styles.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10541,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-logo.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-process.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12504,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-process.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-process.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-storyboards.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70272,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-storyboards.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-storyboards.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-team.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9650,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-team.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-team.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-typography-styles.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121760,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-typography-styles.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-typography-styles.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/astro-max-typography.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15838,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-typography.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-typography.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
