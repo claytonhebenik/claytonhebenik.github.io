@@ -1900,6 +1900,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/work\/astro-max-character-design.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56220,
+		"inputAbbreviatedPath": "\/img\/work\/astro-max-character-design.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/astro-max-character-design.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/work\/astro-max-characters.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
