@@ -1,44 +1,51 @@
-$(document).ready(function() {
-  // callPage('work.html', '.content');
-  $('.nav-link').on('click', function(e) {
-    e.preventDefault();
-    var pageRef = $(this).attr('href');
+var workTitle = document.getElementsByClassName('portfolio-title');
+var i;
+var hide = document.createElement('span');
+var t = document.createTextNode('Hide');
+hide.appendChild(t);
 
-    callPage(pageRef, '.content');
-  });
-  $('.modal-link').on('click',function(e) {
-    e.preventDefault();
-    var pageRef = $(this).attr('href');
+/** Show  */
+for (i = 0; i < workTitle.length; i++) {
+  workTitle[i].addEventListener('click', function() {
+    this.classList.toggle('active');
+    this.nextElementSibling.classList.toggle('active');
 
-    callPage(pageRef, '.modal');
+    // if(this.classList.contains('active') === true) {
+    //   this.appendChild(hide);
+    // };
   });
-  $('.close').on('click', function(e) {
-    $(this).toggleClass('active');
-    $('nav').toggleClass('closed');
-  });
-  v = $(window).width();
-  if (v < 768) {
-    mobileClasses();
-  }
-  function callPage(pageRefInput, element) {
-    $.ajax({
-      url: pageRefInput,
-      type: "GET",
-      dataType: "text",
-      success: function( response ) {
-        //console.log("it worked", response);
-        $(element).html(response);
-      },
-      // error: function ( error) {
-      //   console.log("it didn't work", error);
-      // },
-      // complete: function( xhr, status ) {
-      //   console.log("There request was completed");
-      // }
-    });
-  }
-  function mobileClasses() {
-    $('nav').addClass('closed');
-    $('.button').removeClass('active');
-  }
-});
+}
+
+// var target = document.getElementsByClassName('.typewriter');
+// var text = ['multi-disciplinary', 'UI', 'digital', 'UX', 'collaborative', 'web', 'front-end', 'interactive'];
+
+// for (i = 0; i < text.length; i++) {
+//   target.style
+//   target.innerHTML = text[i];
+  
+//   console.log(i + ' ' + text[i]);
+// }
+
+
+
+
+// workTitle[i].addEventListener('click', function() {
+//   if(workDOM.classList.contains('active')) {
+//       // console.log('it\s alive');
+//       workDOM.classList.remove('active');
+//       // workDOM.style.display = 'none';
+//   }
+//   else {
+//     // console.log('Active');
+//     workDOM.classList.add('active');
+//     // workDOM.style.display = 'block';
+//   }
+// });
+
+// ********************
+/*
+  Get identifier of link that is clicked
+
+  Find modal with the same ID 
+
+  Get */

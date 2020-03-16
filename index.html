@@ -1,53 +1,273 @@
-<html>
-  <head>
-    <title>Clayton Hebenik - UI/UX Designer in Vancouver, BC</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
-    <link href="css/style.min.css" media="all" rel="stylesheet" type="text/css" />
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
-  </head>
-  <body>
-    <div class="container--fluid">
-      <header>
-        <div class="container__row" id="site__heading">
-          <div class="container__col-sm-12">
-            <h1><span class="hide">Directory listing for </span>claytonhebenik<span class="hide">.com/</span></h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Clayton Hebenik - UI Designer in Vancouver, BC</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,400i" rel="stylesheet">
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+
+  <!-- generics -->
+  <link rel="icon" href="/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/favicon-57.png" sizes="57x57">
+  <link rel="icon" href="/favicon-76.png" sizes="76x76">
+  <link rel="icon" href="/favicon-96.png" sizes="96x96">
+  <link rel="icon" href="/favicon-128.png" sizes="128x128">
+  <link rel="icon" href="/favicon-192.png" sizes="192x192">
+  <link rel="icon" href="/favicon-228.png" sizes="228x228">
+
+  <!-- Android -->
+  <link rel="shortcut icon" sizes="196x196" href=“/favicon-196.png"> <!-- iOS -->
+  <link rel="apple-touch-icon" href="/favicon-120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="path/to/favicon-152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="path/to/favicon-180.png" sizes="180x180">
+
+  <!-- Windows 8 IE 10-->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/favicon-144.png">
+
+  <!— Windows 8.1 + IE11 and above —>
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <nav class="top-bar padding-1 padding-2-sm">
+      <div class="row">
+        <div class="col-3-sm col-5-md offset-1-col-lg">
+          <a href="/" class="logo">
+            <span class="expand expand-1">Clayton</span><span class="expand expand-2">Hebenik</span>
+          </a>
+        </div>
+        <div class="col-9-sm col-7-md col-5-lg">
+          <div class="padding-right-2 text-right">
+            <a href="/#work" class="margin-right-2">Work</a>
+            <a href="/about.html" class="margin-right-2">About</a>
+            <a href="#contact">Contact</a>
           </div>
         </div>
-        <div class="container__row">
-          <nav>
-            <button class="button close active">
-                <span class="bar bar1"></span>
-                <span class="bar bar2"></span>
-                <span class="bar bar3"></span>
-            </button>
-            <ul>
-              <li><a class="nav-link" href="work.html">work/</a></li>
-              <li><a class="nav-link" href="about.html" id="about">about/</a></li>
-              <li><a class="nav-link" href="contact.html"  rel="nofollow">contact/</a></li>
-              <li><a class="nav-link" href="photos.html">photos/</a></li>
-              <li><a href="http://claytonhebenik.com/blog">blog/</a></li>
-            </ul>
-          </nav>
+      </div>
+    </nav>
+    <header class="margin-bottom-12-md margin-bottom-6 padding-top-12-md padding-top-6 padding-left-2 padding-right-2 padding-left-3-md padding-right-3-md">
+      <div class="row">
+        <div class="col-10-lg col-12-md col-12-sm offset-1-col-lg">
+          <h1 class="lockup margin-bottom-3 font-xxl">Hey there, I'm Clayton</h1>
         </div>
-      </header>
-      <section class="container__row content">
+      </div>
+      <div class="row">
+        <div class="col-7-lg col-12-md col-12-sm offset-1-col-lg padding-left-1 padding-right-3">
+          <h2>I'm a <span class="typewriter">digital</span> designer passionate about crafting meaningful experiences, based in Vancouver!</h2>
+        </div>
+      </div>
+    </header>
+    <!-- End of Header -->
 
-      </section>
+    <!-- Portfolio Content -->
+    <section class="content margin-bottom-12 padding-bottom-6 padding-top-6 padding-left-2 padding-right-2 padding-left-3-md padding-right-3-md background-offwhite" id="work">
+      <div class="row">
+        <div class="col-10-lg col-12-md col-12-sm offset-1-col-lg">
+          <h3 class="margin-bottom-2">Featured Projects</h2>
+          <div class="row">
+              <div class="col-4-lg col-6-md col-12-sm padding-1">
+                  <a class="portfolio-item card background-lightgrey" href="/work/best-buy/brands-menu.html">
+                    <img srcset="img/work/card-brands-menu.png 150w,
+                      img/work/card-brands-menu.png 480w" sizes="(max-width: 320px) 150px,
+                              (max-width: 768px) 480px" src="img/work/card-brands-menu.png" alt="">
+                    <div class="portfolio-overlay">
+                      <div class="overlay-info text-center">
+                        <h3 class="overlay-text margin-bottom-1">
+                          BestBuy.ca x Brands Menu
+                        </h3>
+                        <span class="overlay-text margin-bottom-4">
+                            UI/UX Design
+                        </span>
+                        <span class="overlay-cta">Read more</span>
+                      </div>
+                    </div>
+                              
+                  </a>
+              </div>
+              <div class="col-4-lg col-6-md col-12-sm padding-1">
+                  <a href="/work/hard-times/redesign.html" class="portfolio-item card background-lightgrey">
+                    <img srcset="img/work/card-hardtimes.png 150w,
+                      img/work/card-hardtimes.png 480w" sizes="(max-width: 320px) 150px,
+                              (max-width: 768px) 480px" src="img/work/card-hardtimes.png" alt="thehardtimes.net">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-info text-center">
+                              <h3 class="overlay-text margin-bottom-1">
+                                  TheHardTimes.net
+                              </h3>
+                              <span class="overlay-text margin-bottom-4">
+                                Website redesign
+                              </span>
+                              <span class="overlay-cta">Read more</span>
+                            </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="col-4-lg col-6-md col-12-sm padding-1">
+                  <a class="portfolio-item card background-lightgrey" href="/work/planet-creator.html">
+                    <img srcset="/img/work/planet-creator.png 150w,
+                    /img/work/card-planet-creator.png 480w" sizes="(max-width: 320px) 150px,
+                              (max-width: 768px) 480px" src="/img/work/card-planet-creator.png" alt="Planet Creator VR prototype">
+                    <div class="portfolio-overlay">
+                        <div class="overlay-info text-center">
+                            <h3 class="overlay-text margin-bottom-1">
+                                Planet Creator
+                            </h3>
+                            <span class="overlay-text margin-bottom-4">
+                              VR prototype
+                            </span>
+                            <span class="overlay-cta">Read more</span>
+                          </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="col-4-lg col-6-md col-12-sm padding-1">
+                  <a class="portfolio-item card background-lightgrey" href="/work/best-buy/jabra.html">
+                    <img srcset="img/work/card-jabra.png 150w,
+                      img/work/card-jabra.png 480w" sizes="(max-width: 320px) 150px,
+                              (max-width: 768px) 480px" src="img/work/card-jabra.png" alt="Jabra brand page">
+                    <div class="portfolio-overlay">
+                        <div class="overlay-info text-center">
+                            <h3 class="overlay-text margin-bottom-1">
+                                BestBuy.ca x Jabra
+                              </h3>
+                            <span class="overlay-text margin-bottom-4">
+                                Branded landing page
+                            </span>
+                            <span class="overlay-cta">Read more</span>
+                          </div>
+                    </div>
+                  </a>
+              </div>
+              <!-- <div class="col-4-lg col-6-md col-12-sm padding-1">
+                  <a class="portfolio-item card background-lightgrey" href="/work/suncoast.html">
+                    <img srcset="img/work/card-suncoast.png 150w,
+                      img/work/card-suncoast.png 480w" sizes="(max-width: 320px) 150px,
+                              (max-width: 768px) 480px" src="img/work/card-suncoast.png" alt="Suncoast Louvered Roofs">
+                    <div class="portfolio-overlay">
+                        <div class="overlay-info text-center">
+                            <h3 class="overlay-text margin-bottom-4">
+                                Suncoast Louvered Roofs
+                              </h3>
+                            <span class="overlay-cta">Read more</span>
+                          </div>
+                    </div>
+                  </a>
+              </div> -->
+              <div class="col-4-lg col-6-md col-12-sm padding-1">
+                  <a class="portfolio-item card background-lightgrey" href="/work/best-buy/frigidaire.html">
+                    <img srcset="img/work/card-frigidaire.png 150w,
+                      img/work/card-frigidaire.png 480w" sizes="(max-width: 320px) 150px,
+                              (max-width: 768px) 480px" src="img/work/card-frigidaire.png" alt="Frigidaire brand page">
+                    <div class="portfolio-overlay">
+                        <div class="overlay-info text-center">
+                            <h3 class="overlay-text margin-bottom-1">
+                                BestBuy.ca x Frigidaire
+                              </h3>
+                            <span class="overlay-text margin-bottom-4">
+                                Branded landing page
+                            </span>
+                            <span class="overlay-cta">Read more</span>
+                          </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="col-4-lg col-6-md col-12-sm padding-1">
+                  <a class="portfolio-item card background-lightgrey" href="/work/astro-and-max.html">
+                    <img srcset="img/work/card-astro-max.png 150w,
+                      img/work/card-astro-max.png 480w" sizes="(max-width: 320px) 150px,
+                              (max-width: 768px) 480px" src="img/work/card-astro-max.png" alt="Astro & Max interactive story">
+                    <div class="portfolio-overlay">
+                        <div class="overlay-info text-center">
+                            <h3 class="overlay-text margin-bottom-1">
+                                Astro & Max
+                              </h3>
+                              <span class="overlay-text margin-bottom-4">
+                                Interactive storybook
+                            </span>
+                            <span class="overlay-cta">Read more</span>
+                          </div>
+                    </div>
+                  </a>
+              </div>
+              
+            </div>
+        </div>
+      </div>
+      
+    </section>
+    
+    <!-- End of Portfolio Content -->
+   <!-- Footer -->
+   <footer class="margin-bottom-4 padding-left-2 padding-right-2 padding-left-3-md padding-right-3-md" id="contact">
+    <div class="row">
+      <div class="col-7-lg col-12-sm offset-1-col-lg margin-bottom-4">
+        <p class="font-xl lockup margin-0">Want to connect?</p>
+        <p class="font-m margin-0">Get in touch!</p>
+      </div>
+      <div class="col-3-lg col-12-md col-12-sm ">
+        <h4 class="lead margin-0">Mail:</h2>
+          <p class="margin-top-0 margin-bottom-4"><a href="clayton.hebenik@gmail.com">clayton.hebenik@gmail.com</a></p>
+            <h4 class="margin-0">Social:</h2>
+              <p class="margin-0">
+                <a href="https://www.linkedin.com/in/clayton-hebenik/" target="_blank"
+                  class="margin-right-2">LinkedIn</a>
+                <a href="https://www.twitter.com/claytonhebenik" target="_blank" class="margin-right-2">Twitter</a>
+                <a href="https://www.instagram.com/claytonheb" target="_blank">Instagram</a>
+              </p>
+      </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" asynch defer></script>
-    <script src="https://use.fontawesome.com/f7e308fae8.js"></script>
-    <script src="js/script.min.js" defer></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  </footer>
+<!-- End of Footer -->
+  </div>
 
-      ga('create', 'UA-75850533-1', 'auto');
-      ga('send', 'pageview');
+  <div class="modal">
 
-    </script>
-  </body>
+  </div>
+  <script src="js/script.js" defer></script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-75850533-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+  <!-- <script async src="js/work-script.min.js"></script> -->
+  <!-- <script>
+    $('.modal-link-close').on('click', function () {
+      $('body').toggleClass('modal-active');
+    });
+  </script> -->
+
+  <link rel="stylesheet" href="css/basiclightbox.min.css">
+  <script src="js/min/basiclightbox.min.js"></script>
+
+  <script>
+    document.querySelector('button.pcVideo').onclick = () => {
+      basicLightbox.create(`
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Yv4PdO26csA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      `).show()
+    }
+    document.querySelector('button.suncoast').onclick = () => {
+      basicLightbox.create(`
+      <img src="img/suncoast-louvered-roofs.jpg" alt="" />
+      `).show()
+    }
+  </script>
+</body>
+
 </html>
